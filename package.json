@@ -1,25 +1,44 @@
 {
   "name": "full-stack-expense-tracker",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "npm jest",
+    "start": "node server.js",
+    "alias": "link-module-alias"
   },
+  "_moduleAliases": {
+    "controllers": "./lib/controllers",
+    "models": "./lib/models",
+    "middleware": "./lib/middleware",
+    "routes": "./lib/routes",
+    "logger": "./logger"
+  },
+  "author": "Alex Dodd",
+  "license": "ISC",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0-0"
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.2.0",
+    "joi-password-complexity": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "link-module-alias": "^1.2.0",
+    "mongoose": "^5.9.29",
+    "nodemon": "^2.0.4",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0-0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-vue": "^7.0.0-0"
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
   }
 }
