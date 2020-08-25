@@ -8,10 +8,9 @@ const validate = require('middleware/validate');
 
 const { User, validateUser } = require('models/user');
 
-router.get('/me', [auth, validateObjectId], async (req, res) => {
+router.get('/me/:id', [auth, validateObjectId], async (req, res) => {
   const { _id } = req.user;
   const user = await User.findById(_id).select('-password');
-  console.log(user);
   res.send(user);
 });
 
