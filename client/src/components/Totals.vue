@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'Totals',
   props: {
     title: {
       type: String,
@@ -29,5 +30,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>

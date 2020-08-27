@@ -26,7 +26,6 @@ import Expenses from '@/components/Expenses.vue';
 export default {
   name: 'Tabs',
   components: {
-    // Totals,
     Income,
     Expenses,
   },

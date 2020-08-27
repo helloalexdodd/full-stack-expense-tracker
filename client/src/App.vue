@@ -1,40 +1,43 @@
 <template>
-  <main>
-    <section class="section">
-      <div class="container">
-        <h1 class="title has-text-centered is-size-1">Expense Tracker</h1>
-        <div class="column is-half is-offset-one-quarter">
-          <totals
-            title="Balance"
-            :amount="calculateTotal('balance')"
-            class="column is-half is-offset-one-quarter"
-          />
-          <div class="columns">
-            <div class="column">
-              <totals title="Income" :amount="calculateTotal('income')" />
+  <div>
+    <!-- <Nav /> -->
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="title has-text-centered is-size-1">Expense Tracker</h1>
+          <div class="column is-half is-offset-one-quarter">
+            <totals
+              title="Balance"
+              :amount="calculateTotal('balance')"
+              class="column is-half is-offset-one-quarter"
+            />
+            <div class="columns">
+              <div class="column">
+                <totals title="Income" :amount="calculateTotal('income')" />
+              </div>
+              <div class="column">
+                <totals title="Expenses" :amount="calculateTotal('expenses')" />
+              </div>
             </div>
-            <div class="column">
-              <totals title="Expenses" :amount="calculateTotal('expenses')" />
-            </div>
+            <tabs
+              :transactions="this.transactions"
+              :transaction="this.transaction"
+              @add-transaction="addTransaction"
+            />
+            <transaction-history
+              class="column"
+              :transactions="this.transactions"
+              @remove-transaction="removeTransaction"
+            />
           </div>
-          <tabs
-            :transactions="this.transactions"
-            :transaction="this.transaction"
-            @add-transaction="addTransaction"
-          />
-          <transaction-history
-            class="column"
-            :transactions="this.transactions"
-            @remove-transaction="removeTransaction"
-          />
         </div>
-      </div>
-      <!-- </div> -->
-    </section>
-  </main>
+      </section>
+    </main>
+  </div>
 </template>
 
 <script>
+// import Nav from '@/components/Nav.vue';
 import Totals from '@/components/Totals.vue';
 import Tabs from '@/components/Tabs.vue';
 import TransactionHistory from '@/components/TransactionHistory.vue';
@@ -44,6 +47,7 @@ import { getTransactions, addTransaction, removeTransaction } from '@/lib/API';
 export default {
   name: 'App',
   components: {
+    // Nav,
     Totals,
     Tabs,
     TransactionHistory,
