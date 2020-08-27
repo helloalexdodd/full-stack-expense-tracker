@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import Vue from 'vue';
 import Buefy from 'buefy';
 import App from './App.vue';
