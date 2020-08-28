@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-// const { logger } = require('logger');
+const { logger } = require('logger');
 
 const app = express();
 app.use(express.json());
@@ -20,4 +20,4 @@ require('routes')(app);
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`App listening on port ${PORT}.....`));
+app.listen(PORT, () => logger.info(`App listening on port ${PORT}.....`));

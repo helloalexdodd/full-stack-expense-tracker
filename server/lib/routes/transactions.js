@@ -14,12 +14,12 @@ const {
 
 const router = express.Router();
 
-router.get('/', /*auth,*/ getAllTransactions);
+router.get('/', auth, getAllTransactions);
 
-router.get('/:id', /*auth,*/ getOneTransaction);
+router.get('/:id', auth, getOneTransaction);
 
-router.post('/', /*auth,*/ addTransaction);
+router.post('/', auth, addTransaction);
 
-router.delete('/:id', /*auth,*/ removeTransaction);
+router.delete('/:id', auth, removeTransaction);
 
 module.exports = router;

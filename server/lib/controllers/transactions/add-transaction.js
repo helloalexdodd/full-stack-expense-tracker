@@ -1,8 +1,8 @@
 const { Transaction, validateTransaction } = require('models/transaction');
 
 const addTransaction = (req, res) => {
-  const { title, amount, notes } = req.body;
-  const transaction = new Transaction({ title, amount, notes });
+  const { title, amount, notes, type } = req.body;
+  const transaction = new Transaction({ title, amount, notes, type });
   transaction.save();
   res.send(transaction);
 };

@@ -21,7 +21,9 @@
     <b-field label="Notes" for="notes">
       <b-input v-model="transaction.notes" type="textarea" id="notes" name="notes"></b-input>
     </b-field>
-    <b-button native-type="submit" class="is-success">Submit Income</b-button>
+    <b-button native-type="submit" class="is-success has-text-weight-bold"
+      >Submit Income</b-button
+    >
   </form>
 </template>
 

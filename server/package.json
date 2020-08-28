@@ -29,7 +29,7 @@
     "jsonwebtoken": "^8.5.1",
     "link-module-alias": "^1.2.0",
     "mongoose": "^5.9.29",
-    "winston": "^3.3.3",
+    "vue-router": "^3.4.3",
     "winston-mongodb": "^5.0.1"
   },
   "devDependencies": {
