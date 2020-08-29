@@ -11,7 +11,10 @@ const logInUser = async (req, res) => {
   const match = await user.comparePassword(password);
   if (!match) return res.status(401).send(errorMessage);
 
-  res.send({ username: user.username, email: user.email });
+  const token = user.generateAuthToken();
+  res
+    .header('x-auth-token', token)
+    .send({ username: user.username, email: user.email, token, _id: user._id });
 };
 
 module.exports = logInUser;

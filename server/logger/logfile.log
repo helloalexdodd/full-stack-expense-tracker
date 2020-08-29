@@ -20344,3 +20344,117 @@
   level: 'info',
   timestamp: '2020-08-29T12:20:50.880Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:35:50.163Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:35:50.186Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:36:17.464Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:36:17.490Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:36:22.246Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:36:22.274Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T12:36:27.332Z'
+}
+{
+  level: 'error',
+  message: 'token is not defined token is not defined',
+  stack: 'ReferenceError: token is not defined\n' +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:15:29)',
+  timestamp: '2020-08-29T12:36:27.333Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T12:36:52.238Z'
+}
+{
+  level: 'error',
+  message: 'token is not defined token is not defined',
+  stack: 'ReferenceError: token is not defined\n' +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:15:29)',
+  timestamp: '2020-08-29T12:36:52.238Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:21.121Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:21.143Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:22.369Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:22.396Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:23.624Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:23.650Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:46.646Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:37:46.672Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T13:02:04.177Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T13:02:04.200Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T13:02:10.670Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T13:02:10.692Z'
+}
