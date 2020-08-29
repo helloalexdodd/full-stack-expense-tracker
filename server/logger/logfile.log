@@ -16609,3 +16609,3738 @@
   level: 'info',
   timestamp: '2020-08-28T14:23:38.642Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T14:32:26.592Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T14:32:26.613Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T14:37:58.247Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T14:37:58.273Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T15:23:03.733Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T15:23:03.757Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T15:23:15.913Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T15:23:15.938Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T15:23:26.028Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T15:23:26.052Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T15:29:50.519Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T15:29:50.543Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:09:05.673Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:09:05.697Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:14:15.316Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:14:15.343Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:19:04.218Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:19:04.239Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:22:38.284Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:22:38.336Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:23:24.284Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:23:24.310Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:23:29.343Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:23:29.375Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:17.686Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:17.707Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:32.247Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:32.271Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:46.427Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:46.453Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:59.088Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:27:59.110Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:28:14.452Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:28:14.476Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-28T17:28:17.171Z'
+}
+{
+  level: 'error',
+  message: 'req.headers is not a function req.headers is not a function',
+  stack: 'TypeError: req.headers is not a function\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:7:21)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:284:7',
+  timestamp: '2020-08-28T17:28:17.171Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T17:28:32.522Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T17:28:32.543Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T18:02:20.320Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T18:02:20.341Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:07:33.610Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:07:33.632Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:07:47.164Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:07:47.185Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:08:53.194Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:08:53.219Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-28T20:09:00.281Z'
+}
+{
+  level: 'error',
+  message: "Cannot read property 'details' of undefined Cannot read property 'details' of undefined",
+  stack: "TypeError: Cannot read property 'details' of undefined\n" +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:4:59\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:284:7',
+  timestamp: '2020-08-28T20:09:00.281Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:13.285Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:13.310Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:17.932Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:17.960Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:27.901Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:27.926Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:35.193Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:35.217Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:44.241Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:44.270Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:50.103Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:09:50.128Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:12:16.828Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:12:16.853Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:12:28.196Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:12:28.221Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:12:50.602Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:12:50.629Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-28T20:15:32.514Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-28T20:15:32.535Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T02:44:39.807Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T02:44:39.844Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (net.js:1316:16)
+      at listenInCluster (net.js:1364:12)
+      at Server.listen (net.js:1450:7)
+      at Function.listen (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:23:5)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47 {
+    code: 'EADDRINUSE',
+    errno: -48,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1316:16)\n' +
+    '    at listenInCluster (net.js:1364:12)\n' +
+    '    at Server.listen (net.js:1450:7)\n' +
+    '    at Function.listen (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:23:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (net.js:1316:16)\n' +
+    '    at listenInCluster (net.js:1364:12)\n' +
+    '    at Server.listen (net.js:1450:7)\n' +
+    '    at Function.listen (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/application.js:618:24)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:23:5)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Fri Aug 28 2020 22:44:43 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 18523,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 65638400,
+      heapTotal: 37384192,
+      heapUsed: 23523152,
+      external: 19968363,
+      arrayBuffers: 18460751
+    }
+  },
+  os: { loadavg: [ 2.3388671875, 2.71875, 2.34375 ], uptime: 85775 },
+  trace: [
+    {
+      column: 16,
+      file: 'net.js',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1316,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'net.js',
+      function: 'listenInCluster',
+      line: 1364,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'net.js',
+      function: 'Server.listen',
+      line: 1450,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T02:44:43.211Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T03:12:36.564Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T03:12:36.584Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T03:16:06.277Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T03:16:06.299Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T03:17:42.343Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T03:17:42.366Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T03:17:45.665Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T03:17:45.690Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T03:17:51.761Z'
+}
+{
+  level: 'error',
+  message: "Cannot destructure property 'username' of 'req.user' as it is undefined. Cannot destructure property 'username' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'username' of 'req.user' as it is undefined.\n" +
+    '    at getUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/get-user.js:4:11)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:284:7',
+  timestamp: '2020-08-29T03:17:51.762Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T03:19:13.574Z'
+}
+{
+  level: 'error',
+  message: "Cannot destructure property 'username' of 'req.user' as it is undefined. Cannot destructure property 'username' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'username' of 'req.user' as it is undefined.\n" +
+    '    at getUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/get-user.js:4:11)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:284:7',
+  timestamp: '2020-08-29T03:19:13.575Z'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)
+      at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:30:52 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20508,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66437120,
+      heapTotal: 37122048,
+      heapUsed: 23118016,
+      external: 19970590,
+      arrayBuffers: 18481068
+    }
+  },
+  os: {
+    loadavg: [ 5.17626953125, 3.2646484375, 2.68701171875 ],
+    uptime: 117340
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 202,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 510,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:30:52.732Z'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)
+      at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:31:01 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20528,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 67203072,
+      heapTotal: 53899264,
+      heapUsed: 24617832,
+      external: 20065268,
+      arrayBuffers: 18575746
+    }
+  },
+  os: {
+    loadavg: [ 4.9951171875, 3.28857421875, 2.70166015625 ],
+    uptime: 117349
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 202,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 510,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:31:01.269Z'
+}
+{
+  error: Error: Cannot find module 'controllers/users/add-user'
+  Require stack:
+  - /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js
+  - /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js
+  - /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1080:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:923:27)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:21)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'controllers/users/add-user'\n" +
+    'Require stack:\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js\n' +
+    "Error: Cannot find module 'controllers/users/add-user'\n" +
+    'Require stack:\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1080:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:923:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)',
+  stack: "Error: Cannot find module 'controllers/users/add-user'\n" +
+    'Require stack:\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js\n' +
+    '- /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1080:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:923:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:31:09 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20540,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 65568768,
+      heapTotal: 35811328,
+      heapUsed: 25225216,
+      external: 20206117,
+      arrayBuffers: 18716595
+    }
+  },
+  os: {
+    loadavg: [ 4.5341796875, 3.24560546875, 2.69287109375 ],
+    uptime: 117357
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 1080,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 923,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:31:09.898Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T11:31:42.639Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T11:31:42.664Z'
+}
+{
+  error: ReferenceError: loginUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:23)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:19:1)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: loginUser is not defined\n' +
+    'ReferenceError: loginUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:23)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:19:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: loginUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:23)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:19:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:31:49 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20576,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 67497984,
+      heapTotal: 53637120,
+      heapUsed: 25044960,
+      external: 20076017,
+      arrayBuffers: 18586495
+    }
+  },
+  os: {
+    loadavg: [ 3.32177734375, 3.10205078125, 2.66357421875 ],
+    uptime: 117397
+  },
+  trace: [
+    {
+      column: 23,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:31:49.900Z'
+}
+{
+  error: Error: Route.post() requires a callback function but got a [object Object]
+      at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)
+      at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18),
+  level: 'error',
+  message: 'uncaughtException: Route.post() requires a callback function but got a [object Object]\n' +
+    'Error: Route.post() requires a callback function but got a [object Object]\n' +
+    '    at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)',
+  stack: 'Error: Route.post() requires a callback function but got a [object Object]\n' +
+    '    at Route.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:202:15)\n' +
+    '    at Function.proto.<computed> [as post] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:510:19)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:16:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:32:54 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20605,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 65482752,
+      heapTotal: 36335616,
+      heapUsed: 26837424,
+      external: 20443510,
+      arrayBuffers: 18953988
+    }
+  },
+  os: {
+    loadavg: [ 2.98681640625, 3.12060546875, 2.7060546875 ],
+    uptime: 117462
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js',
+      function: 'Route.<computed> [as post]',
+      line: 202,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 510,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:32:54.929Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:33:04 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20621,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 65314816,
+      heapTotal: 36597760,
+      heapUsed: 26404600,
+      external: 20298352,
+      arrayBuffers: 18808830
+    }
+  },
+  os: {
+    loadavg: [ 3.2958984375, 3.181640625, 2.732421875 ],
+    uptime: 117472
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:33:04.856Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:33:48 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20653,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 64921600,
+      heapTotal: 36859904,
+      heapUsed: 23408696,
+      external: 19950273,
+      arrayBuffers: 18460751
+    }
+  },
+  os: {
+    loadavg: [ 2.86767578125, 3.0927734375, 2.720703125 ],
+    uptime: 117516
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:33:48.522Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:12:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:34:18 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20670,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 65683456,
+      heapTotal: 36597760,
+      heapUsed: 26570024,
+      external: 20347872,
+      arrayBuffers: 18858350
+    }
+  },
+  os: {
+    loadavg: [ 3.56884765625, 3.21533203125, 2.77587890625 ],
+    uptime: 117546
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:34:18.066Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:34:32 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20682,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 64974848,
+      heapTotal: 53112832,
+      heapUsed: 24058152,
+      external: 20122397,
+      arrayBuffers: 18632875
+    }
+  },
+  os: {
+    loadavg: [ 3.220703125, 3.1552734375, 2.76123046875 ],
+    uptime: 117560
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:34:32.216Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:34:50 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20705,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66203648,
+      heapTotal: 53637120,
+      heapUsed: 23901584,
+      external: 20087028,
+      arrayBuffers: 18597506
+    }
+  },
+  os: {
+    loadavg: [ 3.2822265625, 3.17578125, 2.77685546875 ],
+    uptime: 117578
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:34:50.254Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:34:55 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20715,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66670592,
+      heapTotal: 53899264,
+      heapUsed: 23303760,
+      external: 19942081,
+      arrayBuffers: 18452559
+    }
+  },
+  os: {
+    loadavg: [ 3.33935546875, 3.189453125, 2.78369140625 ],
+    uptime: 117583
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:34:55.490Z'
+}
+{
+  error: ReferenceError: getUser is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: 'uncaughtException: getUser is not defined\n' +
+    'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: 'ReferenceError: getUser is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:9:20)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:7:19)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 07:35:12 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 20734,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66347008,
+      heapTotal: 36859904,
+      heapUsed: 23401080,
+      external: 19950273,
+      arrayBuffers: 18460751
+    }
+  },
+  os: {
+    loadavg: [ 3.0361328125, 3.1298828125, 2.76904296875 ],
+    uptime: 117600
+  },
+  trace: [
+    {
+      column: 20,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T11:35:12.769Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T11:35:46.480Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T11:35:46.503Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T11:57:39.226Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T11:57:39.247Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T11:58:23.314Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T11:58:23.337Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T11:58:28.328Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T11:58:28.352Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T11:59:45.322Z'
+}
+{
+  level: 'error',
+  message: "Cannot destructure property 'username' of 'req.user' as it is undefined. Cannot destructure property 'username' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'username' of 'req.user' as it is undefined.\n" +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:4:11)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:284:7',
+  timestamp: '2020-08-29T11:59:45.322Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T12:03:04.818Z'
+}
+{
+  level: 'error',
+  message: "Cannot destructure property 'username' of 'req.user' as it is undefined. Cannot destructure property 'username' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'username' of 'req.user' as it is undefined.\n" +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:4:11)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)\n' +
+    '    at router (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:47:12)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:317:13)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:284:7',
+  timestamp: '2020-08-29T12:03:04.819Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:03:22.702Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:03:22.732Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:06:50.289Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:06:50.311Z'
+}
+{
+  error: /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/user.js:33
+  });
+  ^
+  
+  SyntaxError: Unexpected token '}'
+      at wrapSafe (internal/modules/cjs/loader.js:1167:16)
+      at Module._compile (internal/modules/cjs/loader.js:1215:27)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:4:26)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '}'\n" +
+    '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/user.js:33\n' +
+    '});\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '}'\n" +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1167:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1215:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:4:26)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/user.js:33\n' +
+    '});\n' +
+    '^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '}'\n" +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1167:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1215:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:4:26)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sat Aug 29 2020 08:07:19 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 21066,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 64679936,
+      heapTotal: 53112832,
+      heapUsed: 22051552,
+      external: 19960954,
+      arrayBuffers: 18471432
+    }
+  },
+  os: {
+    loadavg: [ 2.28662109375, 2.32666015625, 2.50732421875 ],
+    uptime: 119527
+  },
+  trace: [
+    {
+      column: 16,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'wrapSafe',
+      line: 1167,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1215,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 26,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-08-29T12:07:19.404Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:07:20.615Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:07:20.639Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:07:33.742Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:07:33.768Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:08:17.186Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:08:17.212Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:09:42.674Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:09:42.698Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:13:56.451Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:13:56.475Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:14:13.442Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:14:13.467Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:14:55.893Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:14:55.918Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:15:00.510Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:15:00.535Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:15:02.476Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:15:02.500Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:16:11.710Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:16:11.734Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:18:36.713Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:18:36.734Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:19:33.751Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:19:33.776Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T12:19:34.855Z'
+}
+{
+  level: 'error',
+  message: 'user.select is not a function user.select is not a function',
+  stack: 'TypeError: user.select is not a function\n' +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:14:31)',
+  timestamp: '2020-08-29T12:19:34.856Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:19:43.600Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:19:43.624Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:19:55.706Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:19:55.732Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T12:19:59.304Z'
+}
+{
+  level: 'error',
+  message: 'user.select is not a function user.select is not a function',
+  stack: 'TypeError: user.select is not a function\n' +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:14:31)',
+  timestamp: '2020-08-29T12:19:59.305Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:20:29.742Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:20:29.769Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-29T12:20:30.987Z'
+}
+{
+  level: 'error',
+  message: 'email is not defined email is not defined',
+  stack: 'ReferenceError: email is not defined\n' +
+    '    at logInUser (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/log-in-user.js:14:24)',
+  timestamp: '2020-08-29T12:20:30.987Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-29T12:20:50.853Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-29T12:20:50.880Z'
+}

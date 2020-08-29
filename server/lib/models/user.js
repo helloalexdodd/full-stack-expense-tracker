@@ -3,6 +3,7 @@ const Joi = require('joi');
 const passwordComplexity = require('joi-password-complexity');
 const jwt = require('jsonwebtoken');
 const config = require('config');
+const bcrypt = require('bcrypt');
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -27,6 +28,12 @@ const userSchema = new mongoose.Schema({
     trim: true,
   },
   isAdmin: Boolean,
+  // loginAttempts: {
+  //   type: Number,
+  //   required: true,
+  //   default: 0,
+  // },
+  // lockUntil: Number,
 });
 
 userSchema.methods.generateAuthToken = function () {
@@ -34,6 +41,10 @@ userSchema.methods.generateAuthToken = function () {
     { _id: this._id, isAdmin: this.isAdmin },
     config.get('jwtPrivateKey')
   );
+};
+
+userSchema.methods.comparePassword = function (password) {
+  return bcrypt.compare(password, this.password);
 };
 
 const User = mongoose.model('User', userSchema);

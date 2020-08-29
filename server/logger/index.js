@@ -13,22 +13,22 @@ logger.add(
     maxsize: 5242880, // 5MB
     colorize: true,
     format: combine(timestamp(), prettyPrint()),
-  }),
+  })
 );
 
 logger.add(
   new logger.transports.Console({
-    level: 'debug',
+    level: 'info',
     colorize: true,
     format: combine(timestamp(), prettyPrint()),
-  }),
+  })
 );
 
 logger.add(
   new logger.transports.MongoDB({
     db,
     options: { useUnifiedTopology: true },
-  }),
+  })
 );
 
 module.exports = { logger };

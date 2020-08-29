@@ -1,8 +1,9 @@
 const bcrypt = require('bcrypt');
 const { User } = require('models/user');
 
-const addUser = async (req, res) => {
+const registerUser = async (req, res) => {
   const { username, email, password } = req.body;
+  console.log(req.body);
   let user = await User.findOne({ username });
   if (user) return res.status(409).send({ message: 'Username not available' });
 
@@ -24,7 +25,7 @@ const addUser = async (req, res) => {
   res
     .header('x-auth-token', token)
     .status(200)
-    .send({ _id, username, email, access: { token } });
+    .send({ _id, username, email, token });
 };
 
-module.exports = { addUser };
+module.exports = registerUser;

@@ -1,18 +1,13 @@
 const express = require('express');
 const router = express.Router();
-// const bcrypt = require('bcrypt');
-const auth = require('middleware/auth');
-const admin = require('middleware/admin');
-const validateObjectId = require('middleware/validateObjectId');
 const validate = require('middleware/validate');
-
 const { validateUser } = require('models/user');
 
-const { getUser } = require('controllers/users/get-user');
-const { addUser } = require('controllers/users/add-user');
+const registerUser = require('controllers/users/register-user');
+const logInUser = require('controllers/users/log-in-user');
 
-router.get('/me/:id', [auth, admin, validateObjectId], getUser);
+router.post('/register', validate(validateUser), registerUser);
 
-router.post('/', validate(validateUser), addUser);
+router.post('/login', logInUser);
 
 module.exports = router;
