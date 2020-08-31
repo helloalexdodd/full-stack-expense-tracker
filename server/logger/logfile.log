@@ -26159,3 +26159,198 @@
   level: 'info',
   timestamp: '2020-08-31T11:57:36.353Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T14:17:43.088Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T14:17:43.114Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T14:18:16.555Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T14:18:16.579Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-31T14:18:39.432Z'
+}
+{
+  level: 'error',
+  message: 'Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function',
+  stack: 'TypeError: Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:40:69)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:4:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-08-31T14:18:39.433Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-31T14:19:15.787Z'
+}
+{
+  level: 'error',
+  message: 'Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function',
+  stack: 'TypeError: Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:40:69)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:4:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-08-31T14:19:15.788Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-31T14:19:29.029Z'
+}
+{
+  level: 'error',
+  message: 'Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function',
+  stack: 'TypeError: Joi.number(...).min(...).max(...).precision(...).positive(...).require is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:40:69)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:4:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-08-31T14:19:29.030Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T14:19:58.648Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T14:19:58.673Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-31T14:20:01.789Z'
+}
+{
+  level: 'error',
+  message: 'Joi.number(...).min(...).max(...).positive(...).require is not a function Joi.number(...).min(...).max(...).positive(...).require is not a function',
+  stack: 'TypeError: Joi.number(...).min(...).max(...).positive(...).require is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:40:56)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:4:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-08-31T14:20:01.790Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T14:20:16.074Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T14:20:16.114Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-08-31T14:20:17.858Z'
+}
+{
+  level: 'error',
+  message: 'Joi.Date is not a function Joi.Date is not a function',
+  stack: 'TypeError: Joi.Date is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:43:20)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:4:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-08-31T14:20:17.859Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T14:20:23.876Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T14:20:23.903Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T14:24:28.994Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T14:24:29.023Z'
+}

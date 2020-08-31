@@ -1,5 +1,7 @@
 const express = require('express');
 const auth = require('middleware/auth');
+const validate = require('middleware/validate');
+const { validateTransaction } = require('models/transaction');
 
 const {
   getOneTransaction,
@@ -18,7 +20,7 @@ router.get('/', auth, getAllTransactions);
 
 router.get('/:id', auth, getOneTransaction);
 
-router.post('/', auth, addTransaction);
+router.post('/', [auth, validate(validateTransaction)], addTransaction);
 
 router.delete('/:id', auth, removeTransaction);
 

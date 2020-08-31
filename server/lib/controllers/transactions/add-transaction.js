@@ -1,4 +1,4 @@
-const { Transaction, validateTransaction } = require('models/transaction');
+const { Transaction } = require('models/transaction');
 
 const addTransaction = (req, res) => {
   const { title, amount, notes, type } = req.body;

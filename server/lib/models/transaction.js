@@ -37,10 +37,10 @@ const Transaction = model('Transaction', transactionSchema);
 const validateTransaction = (req) => {
   const schema = Joi.object({
     title: Joi.string().max(25).required(),
-    amount: Joi.number().min(0).max(999999).precision(2).positive().require(),
+    amount: Joi.number().min(0).max(999999).precision(2).positive().required(),
     notes: Joi.string().max(200),
     type: Joi.string().valid('income', 'expense').required(),
-    createdAt: Joi.Date(),
+    createdAt: Joi.date(),
   });
   return schema.validate(req);
 };
