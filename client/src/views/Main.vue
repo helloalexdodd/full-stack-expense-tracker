@@ -32,12 +32,10 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex';
+import { mapActions, mapGetters } from 'vuex';
 import Totals from '@/components/Totals.vue';
 import Tabs from '@/components/Tabs.vue';
 import TransactionHistory from '@/components/TransactionHistory.vue';
-
-// import { getTransactions, addTransaction, removeTransaction } from '@/lib/api/transactions';
 
 export default {
   name: 'App',
@@ -47,53 +45,69 @@ export default {
     TransactionHistory,
   },
   data: () => ({
-    transactions: [],
     transaction: {
-      title: '',
-      amount: '',
-      notes: '',
+      title: 'Test',
+      amount: '22',
+      notes: 'Test Note',
       type: '',
     },
   }),
+  computed: {
+    ...mapGetters({
+      transactions: 'transactions/transactions',
+    }),
+  },
   async mounted() {
-    const transactions = await this.getTransactions();
-    this.transactions = transactions;
+    this.getTransactions();
   },
   methods: {
     ...mapActions({
       getTransactions: 'transactions/getTransactions',
+      addTransactionState: 'transactions/addTransaction',
+      removeTransactionState: 'transactions/removeTransaction',
     }),
-    // async addTransaction(type) {
-    //   try {
-    //     const transaction = await addTransaction(this.transaction, type);
-    //     this.transactions.push(transaction);
-    //     this.transaction.title = '';
-    //     this.transaction.amount = '';
-    //     this.transaction.notes = '';
-    //     this.transaction.type = '';
-    //   } catch (err) {
-    //     console.log(err);
-    //   }
-    // },
-    // async removeTransaction(transaction) {
-    //   try {
-    //     const result = await removeTransaction(transaction);
-    //     const index = this.transactions.map((t) => t.title).indexOf(result.title);
-    //     this.transactions.splice(index, 1);
-    //   } catch (err) {
-    //     console.log(err);
-    //   }
-    // },
-    /* eslint-disable no-param-reassign */
+    async addTransaction(type) {
+      try {
+        const data = await this.addTransactionState({ transaction: this.transaction, type });
+        console.log('data', data);
+        const error = data.message;
+        if (error?.includes('username')) {
+          this.usernameInvalid = 'is-danger';
+          this.usernameValidation = error;
+        }
+        if (error?.includes('email')) {
+          this.emailInvalid = 'is-danger';
+          this.emailValidation = error;
+        }
+        if (error?.includes('password')) {
+          this.passwordInvalid = 'is-danger';
+          this.passwordValidation = error;
+        } else {
+          this.transaction.title = '';
+          this.transaction.amount = '';
+          this.transaction.notes = '';
+          this.transaction.type = '';
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    },
+    async removeTransaction(transaction) {
+      try {
+        await this.removeTransactionState(transaction);
+      } catch (err) {
+        console.log(err);
+      }
+    },
     getTotal(type) {
       return this.transactions
         .reduce((acc, cur) => {
+          /* eslint-disable-next-line no-param-reassign */
           if (cur.type === type) acc += cur.amount;
           return acc;
         }, 0)
         .toFixed(2);
     },
-    /* eslint-disable no-param-reassign */
     calculateTotal(type) {
       const income = this.getTotal('income');
       const expenses = this.getTotal('expense');
