@@ -3,7 +3,7 @@ const { User } = require('models/user');
 
 const registerUser = async (req, res) => {
   const { username, email, password } = req.body;
-  console.log(req.body);
+
   let user = await User.findOne({ username });
   if (user) return res.status(409).send({ message: 'Username not available' });
 
@@ -22,7 +22,9 @@ const registerUser = async (req, res) => {
 
   const { _id } = await user.save();
   const token = user.generateAuthToken();
-  res.header('x-auth-token', token).send({ _id, username, email, token });
+  res
+    .header('x-auth-token', token)
+    .send({ user: { _id, username, email }, token });
 };
 
 module.exports = registerUser;

@@ -32,11 +32,12 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 import Totals from '@/components/Totals.vue';
 import Tabs from '@/components/Tabs.vue';
 import TransactionHistory from '@/components/TransactionHistory.vue';
 
-import { getTransactions, addTransaction, removeTransaction } from '@/lib/API';
+// import { getTransactions, addTransaction, removeTransaction } from '@/lib/api/transactions';
 
 export default {
   name: 'App',
@@ -55,31 +56,34 @@ export default {
     },
   }),
   async mounted() {
-    const transactions = await getTransactions();
+    const transactions = await this.getTransactions();
     this.transactions = transactions;
   },
   methods: {
-    async addTransaction(type) {
-      try {
-        const transaction = await addTransaction(this.transaction, type);
-        this.transactions.push(transaction);
-        this.transaction.title = '';
-        this.transaction.amount = '';
-        this.transaction.notes = '';
-        this.transaction.type = '';
-      } catch (err) {
-        console.log(err);
-      }
-    },
-    async removeTransaction(transaction) {
-      try {
-        const result = await removeTransaction(transaction);
-        const index = this.transactions.map((t) => t.title).indexOf(result.title);
-        this.transactions.splice(index, 1);
-      } catch (err) {
-        console.log(err);
-      }
-    },
+    ...mapActions({
+      getTransactions: 'transactions/getTransactions',
+    }),
+    // async addTransaction(type) {
+    //   try {
+    //     const transaction = await addTransaction(this.transaction, type);
+    //     this.transactions.push(transaction);
+    //     this.transaction.title = '';
+    //     this.transaction.amount = '';
+    //     this.transaction.notes = '';
+    //     this.transaction.type = '';
+    //   } catch (err) {
+    //     console.log(err);
+    //   }
+    // },
+    // async removeTransaction(transaction) {
+    //   try {
+    //     const result = await removeTransaction(transaction);
+    //     const index = this.transactions.map((t) => t.title).indexOf(result.title);
+    //     this.transactions.splice(index, 1);
+    //   } catch (err) {
+    //     console.log(err);
+    //   }
+    // },
     /* eslint-disable no-param-reassign */
     getTotal(type) {
       return this.transactions
@@ -94,7 +98,6 @@ export default {
       const income = this.getTotal('income');
       const expenses = this.getTotal('expense');
       const balance = income - expenses;
-
       let total;
       if (type === 'income') total = income;
       if (type === 'expenses') total = expenses;

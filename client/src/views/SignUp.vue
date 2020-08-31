@@ -9,13 +9,7 @@
           :type="usernameInvalid"
           :message="usernameValidation"
         >
-          <b-input
-            v-model="user.username"
-            id="username"
-            name="username"
-            placeholder="Username"
-            value="alexdodd"
-          ></b-input>
+          <b-input v-model="user.username" id="username" name="username" placeholder="Username"></b-input>
         </b-field>
         <b-field label="Email" for="email" :type="emailInvalid" :message="emailValidation">
           <b-input
@@ -47,21 +41,29 @@
             Sign Up
           </b-button>
         </div>
+        <div class="level">
+          <div class="level-left">
+            <router-link to="/login">Log In</router-link>
+          </div>
+          <div class="level-right">
+            <router-link to="/forgotpassword">Forgot Password</router-link>
+          </div>
+        </div>
       </form>
     </div>
   </div>
 </template>
 
 <script>
-import { registerUser } from '@/lib/API';
+import { mapActions } from 'vuex';
 
 export default {
   name: 'SignUp',
   data: () => ({
     user: {
-      username: 'alex',
-      email: 'alex@alex.com',
-      password: 'qwertyui2U@',
+      username: 'alexdodd47',
+      email: 'alexdodd47@alexdodd.ca',
+      password: 'qwertY7&',
     },
     usernameInvalid: '',
     usernameValidation: '',
@@ -71,6 +73,9 @@ export default {
     emailValidation: '',
   }),
   methods: {
+    ...mapActions({
+      registerUser: 'auth/registerUser',
+    }),
     async handleSubmit() {
       this.usernameInvalid = '';
       this.usernameValidation = '';
@@ -79,24 +84,25 @@ export default {
       this.emailInvalid = '';
       this.emailValidation = '';
 
-      const user = await registerUser(this.user);
-      const error = user.message?.toLowerCase();
-      console.log('error', error);
+      const { data } = await this.registerUser(this.user);
+
+      const error = data?.details[0].message;
+
       if (error) {
         if (error.includes('username')) {
           this.usernameInvalid = 'is-danger';
-          this.usernameValidation = user.message;
+          this.usernameValidation = error;
         }
         if (error.includes('email')) {
           this.emailInvalid = 'is-danger';
-          this.emailValidation = user.message;
+          this.emailValidation = error;
         }
         if (error.includes('password')) {
           this.passwordInvalid = 'is-danger';
-          this.passwordValidation = user.message;
+          this.passwordValidation = error;
         }
       } else {
-        this.$router.push({ name: 'Main' });
+        this.$router.push('/');
       }
     },
   },
