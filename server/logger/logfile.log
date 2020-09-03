@@ -26354,3 +26354,365 @@
   level: 'info',
   timestamp: '2020-08-31T14:24:29.023Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T23:42:29.544Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T23:42:29.585Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-08-31T23:50:15.084Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-08-31T23:50:15.105Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-01T00:22:06.984Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-01T00:22:07.006Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-01T22:42:37.130Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-01T22:42:37.315Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-01T22:47:14.833Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-01T22:47:14.858Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-01T22:47:32.138Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-01T22:47:32.164Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-01T22:48:18.001Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-01T22:48:18.026Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T00:55:12.717Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T00:55:12.749Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T01:01:57.099Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T01:01:57.122Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T01:07:49.188Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T01:07:49.210Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T01:08:02.367Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T01:08:02.388Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T02:43:56.778Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T02:43:56.806Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T02:59:04.641Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T02:59:04.662Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T09:01:33.150Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T09:01:33.262Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:40:18.771Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:40:18.798Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:15.345Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:15.370Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:26.373Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:26.397Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:31.858Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:31.885Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:40.063Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:55:40.087Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:56:01.328Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:56:01.350Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:56:10.645Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:56:10.671Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T10:57:12.397Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T10:57:12.423Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T11:05:23.526Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T11:05:23.547Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-09-02T11:09:37.740Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schema/objectid.js:267:12)
+      at ObjectId.SchemaType.applySetters (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1070:12)
+      at ObjectId.SchemaType._castForQuery (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1498:15)
+      at ObjectId.SchemaType.castForQuery (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1488:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1467:15)
+      at cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/cast.js:326:32)
+      at model.Query.Query.cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4740:12)
+      at model.Query.Query._castConditions (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:1865:10)
+      at model.Query.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:2122:8)
+      at model.Query._wrappedThunk [as _findOne] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/kareem/index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11),
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction" Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction"',
+  stack: 'CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction"\n' +
+    '    at model.Query.exec (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4351:21)\n' +
+    '    at model.Query.Query.then (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4443:15)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:93:5)',
+  timestamp: '2020-09-02T11:09:37.740Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-09-02T11:09:48.378Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schema/objectid.js:267:12)
+      at ObjectId.SchemaType.applySetters (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1070:12)
+      at ObjectId.SchemaType._castForQuery (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1498:15)
+      at ObjectId.SchemaType.castForQuery (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1488:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1467:15)
+      at cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/cast.js:326:32)
+      at model.Query.Query.cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4740:12)
+      at model.Query.Query._castConditions (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:1865:10)
+      at model.Query.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:2122:8)
+      at model.Query._wrappedThunk [as _findOne] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/kareem/index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11),
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction" Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction"',
+  stack: 'CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction"\n' +
+    '    at model.Query.exec (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4351:21)\n' +
+    '    at model.Query.Query.then (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4443:15)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:93:5)',
+  timestamp: '2020-09-02T11:09:48.379Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-09-02T11:10:00.183Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+      at new ObjectID (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/bson/lib/bson/objectid.js:59:11)
+      at castObjectId (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at ObjectId.cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schema/objectid.js:267:12)
+      at ObjectId.SchemaType.applySetters (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1070:12)
+      at ObjectId.SchemaType._castForQuery (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1498:15)
+      at ObjectId.SchemaType.castForQuery (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1488:15)
+      at ObjectId.SchemaType.castForQueryWrapper (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/schematype.js:1467:15)
+      at cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/cast.js:326:32)
+      at model.Query.Query.cast (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4740:12)
+      at model.Query.Query._castConditions (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:1865:10)
+      at model.Query.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:2122:8)
+      at model.Query._wrappedThunk [as _findOne] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/helpers/query/wrapThunk.js:16:8)
+      at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/kareem/index.js:369:33
+      at processTicksAndRejections (internal/process/task_queues.js:75:11),
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction" Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction"',
+  stack: 'CastError: Cast to ObjectId failed for value "undefined" at path "_id" for model "Transaction"\n' +
+    '    at model.Query.exec (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4351:21)\n' +
+    '    at model.Query.Query.then (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/mongoose/lib/query.js:4443:15)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:93:5)',
+  timestamp: '2020-09-02T11:10:00.183Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T18:28:08.475Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T18:28:08.502Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-02T20:26:57.753Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-02T20:26:57.779Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-03T00:14:11.702Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-03T00:14:11.723Z'
+}

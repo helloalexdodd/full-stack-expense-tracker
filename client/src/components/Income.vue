@@ -1,5 +1,9 @@
 <template>
-  <form @submit.prevent="$emit('add-transaction')" action="POST" class="my-5">
+  <form
+    @submit.prevent="addTransaction({ transaction, type: 'income' })"
+    action="POST"
+    class="my-5"
+  >
     <legend class="mb-3 py-2">Add new income</legend>
     <b-field label="Title" for="title">
       <b-input v-model="transaction.title" id="title" name="title" placeholder="Title"></b-input>
@@ -21,22 +25,31 @@
     <b-field label="Notes" for="notes">
       <b-input v-model="transaction.notes" type="textarea" id="notes" name="notes"></b-input>
     </b-field>
-    <b-button native-type="submit" class="is-success has-text-weight-bold"
-      >Submit Income</b-button
-    >
+    <b-button native-type="submit" class="is-success has-text-weight-bold">Submit Income</b-button>
   </form>
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex';
+
 export default {
-  name: 'Income',
-  props: {
-    transactions: {
-      type: Array,
-    },
+  name: 'Expenses',
+  data: () => ({
     transaction: {
-      type: Object,
+      title: 'Test',
+      amount: '22',
+      notes: 'Test Note',
     },
+  }),
+  computed: {
+    ...mapGetters({
+      transactions: 'transactions/transactions',
+    }),
+  },
+  methods: {
+    ...mapActions({
+      addTransaction: 'transactions/addTransaction',
+    }),
   },
 };
 </script>

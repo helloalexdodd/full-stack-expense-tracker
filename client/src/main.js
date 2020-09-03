@@ -1,10 +1,12 @@
 import Vue from 'vue';
 import Buefy from 'buefy';
 import axios from 'axios';
-import App from './App.vue';
-import router from './router';
-import store from './store';
+import router from '@/router';
+import store from '@/store';
+import '@/store/subscriber';
 import 'buefy/dist/buefy.css';
+import '@mdi/font/css/materialdesignicons.css';
+import App from './App.vue';
 
 Vue.config.productionTip = false;
 

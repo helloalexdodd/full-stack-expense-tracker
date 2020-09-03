@@ -8,16 +8,16 @@
       :class="transaction.type"
       class="box"
     >
-      <div @click="transaction.showDetails = !transaction.showDetails" class="columns">
-        <div class="column">
+      <div class="columns">
+        <div @click="showDetails(transaction)" class="column">
           <h3 class="has-text-weight-bold">{{ transaction.title }}</h3>
         </div>
-        <div class="column">
+        <div @click="showDetails(transaction)" class="column">
           <p class="has-text-right">${{ transaction.amount.toFixed(2) }}</p>
         </div>
         <div class="buttons">
           <b-button
-            @click="$emit('remove-transaction', transaction)"
+            @click="removeTransaction(transaction._id)"
             type="is-danger"
             icon-right="delete"
           />
@@ -28,11 +28,7 @@
           <h4 class="column">Notes</h4>
           <h4 class="column has-text-right">
             {{
-              new Date(transaction.createdAt).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })
+            formateDate(transaction)
             }}
           </h4>
         </div>
@@ -43,10 +39,25 @@
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex';
+
 export default {
-  props: {
-    transactions: {
-      type: Array,
+  computed: {
+    ...mapGetters({
+      transactions: 'transactions/transactions',
+    }),
+  },
+  methods: {
+    ...mapActions({ removeTransaction: 'transactions/removeTransaction' }),
+    showDetails(transaction) {
+      transaction.showDetails = !transaction.showDetails;
+    },
+    formatDate(transaction) {
+      return new Date(transaction.createdAt).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
     },
   },
 };

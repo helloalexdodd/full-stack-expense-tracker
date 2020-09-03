@@ -1,5 +1,4 @@
 import axios from 'axios';
-// import { mapGetters } from 'vuex';
 
 export default {
   namespaced: true,
@@ -20,33 +19,28 @@ export default {
     },
   },
   actions: {
-    async getTransactions({ dispatch }) {
+    async getTransactions({ commit }) {
       const { data } = await axios.get('transactions');
-      dispatch('setTransactions', data);
-      return data;
+      commit('SET_TRANSACTIONS', data);
     },
-    async addTransaction({ dispatch }, { transaction, type }) {
+    async addTransaction({ commit }, { transaction, type }) {
       try {
         const newTransaction = transaction;
         newTransaction.type = type;
         const { data } = await axios.post('transactions', newTransaction);
-        dispatch('setTransactions', [data]);
-        return data;
+        commit('SET_TRANSACTIONS', [data]);
       } catch (err) {
-        return err.response.data.details[0];
+        return err.response;
       }
     },
-    async removeTransaction({ dispatch, state }, transaction) {
-      const { data } = await axios.delete(`transactions/${transaction._id}`, transaction);
-      const index = state.transactions.map((t) => t.title).indexOf(data.title);
-      dispatch('removeTransactions', index);
-      return data;
-    },
-    setTransactions({ commit }, data) {
-      commit('SET_TRANSACTIONS', data);
-    },
-    removeTransactions({ commit }, index) {
-      commit('REMOVE_TRANSACTION', index);
+    async removeTransaction({ commit, state }, id) {
+      try {
+        const { data } = await axios.delete(`transactions/${id}`);
+        const index = state.transactions.map((t) => t._id).indexOf(data._id);
+        if (index >= 0) commit('REMOVE_TRANSACTION', index);
+      } catch (err) {
+        return err.response;
+      }
     },
   },
 };
