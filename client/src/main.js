@@ -6,6 +6,7 @@ import store from '@/store';
 import '@/store/subscriber';
 import 'buefy/dist/buefy.css';
 import '@mdi/font/css/materialdesignicons.css';
+import 'mailgo/dist/mailgo.min';
 import App from './App.vue';
 
 Vue.config.productionTip = false;

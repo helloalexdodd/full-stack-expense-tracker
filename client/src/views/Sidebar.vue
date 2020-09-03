@@ -1,7 +1,7 @@
 <template>
   <section>
-    <b-button @click="open = true" class="mx-3 my-3 is-pulled-right" type="is-text">
-      <b-icon icon="account-details" size="is-medium"></b-icon>
+    <b-button @click="open = true" type="is-text" class="my-3 mx-3">
+      <b-icon icon="menu" size="is-medium"></b-icon>
     </b-button>
     <b-sidebar
       type="is-light"
@@ -11,18 +11,27 @@
       :right="right"
       v-model="open"
     >
-      <div class="p-1">
+      <div class="section">
         <b-menu>
           <b-menu-list>
-            <div class="buttons">
+            <li class="buttons is-centered mb-6">
               <template v-if="authenticated">
-                <a @click="logOut" href="#" class="button is-light has-text-weight-bold">Log Out</a>
+                <a @click="logOut" href="#" class="button is-info has-text-weight-bold">Log Out</a>
               </template>
               <template v-else>
                 <router-link :to="'/signup'" class="button is-success has-text-weight-bold">Sign up</router-link>
-                <router-link :to="'/login'" class="button is-light has-text-weight-bold">Log In</router-link>
+                <router-link :to="'/login'" class="button is-link has-text-weight-bold">Log In</router-link>
               </template>
-            </div>
+            </li>
+            <p class="mb-4">Having an issue or have a suggestion?</p>
+            <b-menu-item
+              icon="email"
+              label="Get In Touch"
+              href="#mailgo"
+              data-address="hello"
+              data-domain="alexdodd.ca"
+              data-subject="Hello! 🦖✨😃"
+            ></b-menu-item>
           </b-menu-list>
         </b-menu>
       </div>
@@ -41,7 +50,7 @@ export default {
       overlay: false,
       fullheight: true,
       fullwidth: false,
-      right: true,
+      right: false,
     };
   },
   computed: {
@@ -60,9 +69,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.p-1 {
-  padding: 1em;
-}
-</style>

@@ -22,6 +22,7 @@ export default {
     async getTransactions({ commit }) {
       const { data } = await axios.get('transactions');
       commit('SET_TRANSACTIONS', data);
+      return data;
     },
     async addTransaction({ commit }, { transaction, type }) {
       try {

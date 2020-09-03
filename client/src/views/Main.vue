@@ -37,7 +37,7 @@ export default {
       transactions: 'transactions/transactions',
     }),
   },
-  async mounted() {
+  mounted() {
     this.getTransactions();
   },
   methods: {
