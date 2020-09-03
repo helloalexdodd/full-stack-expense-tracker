@@ -16,7 +16,7 @@
           <b-menu-list>
             <li class="buttons is-centered mb-6">
               <template v-if="authenticated">
-                <a @click="logOut" href="#" class="button is-info has-text-weight-bold">Log Out</a>
+                <a @click="logOut" href="#" class="button is-link has-text-weight-bold">Log Out</a>
               </template>
               <template v-else>
                 <router-link :to="'/signup'" class="button is-success has-text-weight-bold">Sign up</router-link>
@@ -56,6 +56,7 @@ export default {
   computed: {
     ...mapGetters({
       authenticated: 'auth/authenticated',
+      transactions: 'transactions/transactions',
     }),
   },
   methods: {

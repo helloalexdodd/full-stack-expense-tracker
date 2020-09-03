@@ -26726,3 +26726,13 @@
   level: 'info',
   timestamp: '2020-09-03T13:27:53.224Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-03T22:24:01.396Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-03T22:24:01.444Z'
+}
