@@ -19,19 +19,21 @@ export default {
     Income,
     Expenses,
   },
-  convertToCurrency(amount) {
-    if (amount) {
-      const currency = new Intl.NumberFormat('en-CA', {
-        style: 'currency',
-        currency: 'CAD',
-      })
-        .format(amount)
-        .substring(1)
-        .split('')
-        .filter((char) => char !== ',')
-        .join('');
-      this.transaction.amount = Number(currency).toFixed(2);
-    }
+  methods: {
+    convertToCurrency(amount) {
+      if (amount) {
+        const currency = new Intl.NumberFormat('en-CA', {
+          style: 'currency',
+          currency: 'CAD',
+        })
+          .format(amount)
+          .substring(1)
+          .split('')
+          .filter((char) => char !== ',')
+          .join('');
+        this.transaction.amount = Number(currency).toFixed(2);
+      }
+    },
   },
 };
 </script>
