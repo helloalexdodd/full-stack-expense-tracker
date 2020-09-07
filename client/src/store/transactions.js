@@ -4,10 +4,34 @@ export default {
   namespaced: true,
   state: {
     transactions: [],
+    titleInvalid: '',
+    titleValidation: '',
+    amountInvalid: '',
+    amountValidation: '',
+    notesInvalid: '',
+    notesValidation: '',
   },
   getters: {
     transactions(state) {
       return state.transactions;
+    },
+    titleInvalid(state) {
+      return state.titleInvalid;
+    },
+    titleValidation(state) {
+      return state.titleValidation;
+    },
+    amountInvalid(state) {
+      return state.amountInvalid;
+    },
+    amountValidation(state) {
+      return state.amountValidation;
+    },
+    notesInvalid(state) {
+      return state.notesInvalid;
+    },
+    notesValidation(state) {
+      return state.notesValidation;
     },
   },
   mutations: {
@@ -21,6 +45,15 @@ export default {
     REMOVE_TRANSACTION(state, index) {
       state.transactions.splice(index, 1);
     },
+    SET_ERROR(state, { name, error }) {
+      if (error.message) {
+        state[`${name}Invalid`] = 'is-danger';
+        state[`${name}Validation`] = error.message;
+      } else {
+        state[`${name}Invalid`] = error;
+        state[`${name}Validation`] = error.message;
+      }
+    },
   },
   actions: {
     async getTransactions({ commit }) {
@@ -28,7 +61,7 @@ export default {
       commit('SET_TRANSACTIONS', data);
       return data;
     },
-    async addTransaction({ commit }, { transaction, type }) {
+    async addTransaction({ commit, dispatch }, { transaction, type }) {
       try {
         const newTransaction = transaction;
         newTransaction.type = type;
@@ -38,7 +71,20 @@ export default {
         transaction.notes = '';
         commit('SET_TRANSACTIONS', [data]);
       } catch (err) {
-        return err.response;
+        const error = err.response.data.details[0];
+        dispatch('handleErrors', error);
+      }
+    },
+    handleErrors({ commit }, error) {
+      const { message } = error;
+      if (message.includes('title')) {
+        commit('SET_ERROR', { name: 'title', error });
+      }
+      if (message.includes('amount')) {
+        commit('SET_ERROR', { name: 'amount', error });
+      }
+      if (message.includes('notes')) {
+        commit('SET_ERROR', { name: 'notes', error });
       }
     },
     async removeTransaction({ commit, state }, id) {
