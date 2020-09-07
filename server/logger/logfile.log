@@ -26736,3 +26736,517 @@
   level: 'info',
   timestamp: '2020-09-03T22:24:01.444Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T01:40:26.088Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T01:40:26.114Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T01:42:52.482Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T01:42:52.506Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T01:43:59.249Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T01:43:59.271Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:05:00.502Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:05:00.524Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:06:14.294Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:06:14.320Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:07:00.920Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:07:00.945Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:08:43.706Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:08:43.732Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:09:46.884Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:09:46.910Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:09:59.647Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:09:59.675Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:00.502Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:00.528Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:21.480Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:21.506Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:28.600Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:28.626Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:49.341Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:49.366Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:50.946Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:10:50.971Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:45:22.345Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:45:22.366Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:45:36.994Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:45:37.021Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:45:50.885Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:45:50.915Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:46:32.859Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:46:32.887Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:49:24.343Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:49:24.391Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:49:53.301Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:49:53.331Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:50:32.228Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:50:32.253Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-04T02:50:38.236Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-04T02:50:38.269Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-06T02:43:49.796Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-06T02:43:49.861Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-09-06T02:50:48.754Z'
+}
+{
+  level: 'error',
+  message: 'Joi.objectId is not a function Joi.objectId is not a function',
+  stack: 'TypeError: Joi.objectId is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:41:15)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:3:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-09-06T02:50:48.754Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:24:09.964Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:24:10.034Z'
+}
+{
+  level: 'error',
+  message: 'error',
+  timestamp: '2020-09-07T00:24:38.467Z'
+}
+{
+  level: 'error',
+  message: 'Joi.objectId is not a function Joi.objectId is not a function',
+  stack: 'TypeError: Joi.objectId is not a function\n' +
+    '    at validateTransaction (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/models/transaction.js:41:15)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/validate.js:3:23\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at module.exports (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/middleware/auth.js:11:5)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:137:13)\n' +
+    '    at Route.dispatch (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/route.js:112:3)\n' +
+    '    at newFn (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express-async-errors/index.js:16:20)\n' +
+    '    at Layer.handle [as handle_request] (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:281:22\n' +
+    '    at Function.process_params (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:335:12)\n' +
+    '    at next (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:275:10)\n' +
+    '    at Function.handle (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/express/lib/router/index.js:174:3)',
+  timestamp: '2020-09-07T00:24:38.468Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:25:47.616Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:25:47.639Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:38:28.098Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:38:28.120Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:39:20.418Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:39:20.439Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:39:46.057Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:39:46.077Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:40:34.331Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:40:34.357Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:41:05.927Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:41:05.952Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:42:11.328Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:42:11.352Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:42:37.614Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:42:37.639Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:42:58.645Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:42:58.668Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:43:46.019Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:43:46.043Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:44:18.777Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:44:18.803Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:44:39.494Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:44:39.520Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:03.952Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:03.977Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:47.519Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:47.546Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:50.748Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:50.773Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:55.244Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:45:55.268Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:46:13.915Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:46:13.941Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:47:44.967Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:47:44.991Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:47:54.302Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:47:54.331Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:48:33.030Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:48:33.056Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:48:52.296Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:48:52.321Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-07T00:50:21.974Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-07T00:50:21.999Z'
+}

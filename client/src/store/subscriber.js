@@ -1,21 +1,24 @@
 import Vue from 'vue';
 import store from '@/store';
 
-export default store.subscribe(({ type, payload }) => {
-  switch (type) {
+export default store.subscribe((mutation) => {
+  console.log(mutation);
+  switch (mutation.type) {
     case 'auth/SET_TOKEN':
-      if (payload) {
-        Vue.prototype.$http.defaults.headers.common['x-auth-token'] = payload;
-        localStorage.setItem('x-auth-token', payload);
+      if (mutation.payload) {
+        Vue.prototype.$http.defaults.headers.common['x-auth-token'] = mutation.payload;
+        localStorage.setItem('x-auth-token', mutation.payload);
       } else {
         Vue.prototype.$http.defaults.headers.common['x-auth-token'] = '';
         localStorage.removeItem('x-auth-token');
       }
       break;
     case 'auth/SET_USER':
-      if (payload) {
-        Vue.prototype.$http.defaults.headers.common.user = JSON.stringify(payload);
-        localStorage.setItem('user', JSON.stringify(payload));
+      if (mutation.payload) {
+        const { payload } = mutation;
+        const user = { _id: payload._id, email: payload.email, username: payload.username };
+        Vue.prototype.$http.defaults.headers.common.user = JSON.stringify(user);
+        localStorage.setItem('user', JSON.stringify(user));
       } else {
         Vue.prototype.$http.defaults.headers.common.user = '';
         localStorage.removeItem('user');

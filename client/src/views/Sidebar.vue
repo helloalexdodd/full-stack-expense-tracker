@@ -56,7 +56,6 @@ export default {
   computed: {
     ...mapGetters({
       authenticated: 'auth/authenticated',
-      transactions: 'transactions/transactions',
     }),
   },
   methods: {
@@ -65,6 +64,7 @@ export default {
     }),
     async logOut() {
       await this.signOut();
+      await this.$store.commit('transactions/SET_TRANSACTIONS', []);
       this.$router.push('/login');
     },
   },

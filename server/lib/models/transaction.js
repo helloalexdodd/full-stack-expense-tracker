@@ -1,8 +1,11 @@
 const { Schema, model } = require('mongoose');
 const Joi = require('joi');
-const { boolean } = require('joi');
+Joi.objectId = require('joi-objectid')(Joi);
 
 const transactionSchema = new Schema({
+  user: {
+    type: Schema.Types.ObjectId,
+  },
   category: {
     type: String,
   },
@@ -36,10 +39,12 @@ const Transaction = model('Transaction', transactionSchema);
 
 const validateTransaction = (req) => {
   const schema = Joi.object({
+    user: Joi.objectId(),
     title: Joi.string().max(25).required(),
     amount: Joi.number().min(0).max(999999).precision(2).positive().required(),
     notes: Joi.string().max(200),
     type: Joi.string().valid('income', 'expense').required(),
+    showDetails: Joi.boolean(),
     createdAt: Joi.date(),
   });
   return schema.validate(req);

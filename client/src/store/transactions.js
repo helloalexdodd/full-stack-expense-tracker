@@ -12,7 +12,11 @@ export default {
   },
   mutations: {
     SET_TRANSACTIONS(state, data) {
-      state.transactions = [...data];
+      if (data.length) {
+        state.transactions = [...state.transactions, ...data];
+      } else {
+        state.transactions = [];
+      }
     },
     REMOVE_TRANSACTION(state, index) {
       state.transactions.splice(index, 1);
