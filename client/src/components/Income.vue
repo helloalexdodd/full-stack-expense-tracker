@@ -36,9 +36,9 @@ export default {
   name: 'Expenses',
   data: () => ({
     transaction: {
-      title: 'Test',
-      amount: '22',
-      notes: 'Test Note',
+      title: '',
+      amount: '',
+      notes: '',
     },
   }),
   computed: {

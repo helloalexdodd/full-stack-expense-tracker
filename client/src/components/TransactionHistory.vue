@@ -28,7 +28,7 @@
           <h4 class="column">Notes</h4>
           <h4 class="column has-text-right">
             {{
-            formateDate(transaction)
+            formatDate(transaction)
             }}
           </h4>
         </div>

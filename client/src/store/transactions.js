@@ -33,6 +33,9 @@ export default {
         const newTransaction = transaction;
         newTransaction.type = type;
         const { data } = await axios.post('transactions', newTransaction);
+        transaction.title = '';
+        transaction.amount = '';
+        transaction.notes = '';
         commit('SET_TRANSACTIONS', [data]);
       } catch (err) {
         return err.response;
