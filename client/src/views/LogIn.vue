@@ -6,7 +6,12 @@
         <b-field label="Username" for="username" :type="usernameValidation">
           <b-input v-model="user.username" id="username" name="username" placeholder="Username"></b-input>
         </b-field>
-        <b-field label="Password" for="password" :type="passwordValidation" :message="passwordMessage">
+        <b-field
+          label="Password"
+          for="password"
+          :type="passwordValidation"
+          :message="passwordMessage"
+        >
           <b-input
             v-model="user.password"
             type="password"
@@ -39,8 +44,8 @@ export default {
   name: 'LogIn',
   data: () => ({
     user: {
-      username: 'qwerty',
-      password: 'qwertY7&',
+      username: '',
+      password: '',
     },
     usernameValidation: '',
     passwordValidation: '',

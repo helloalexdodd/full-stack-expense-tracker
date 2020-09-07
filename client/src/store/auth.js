@@ -56,5 +56,8 @@ export default {
       commit('SET_TOKEN', '');
       commit('SET_USER', {});
     },
+    async resetPassword() {
+      // const response = await axios.get();
+    },
   },
 };
