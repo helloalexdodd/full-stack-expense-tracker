@@ -34615,3 +34615,33 @@
     '    at resetPassword (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/reset-password.js:12:19)',
   timestamp: '2020-09-08T01:10:36.368Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-08T01:20:17.868Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-08T01:20:17.894Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-08T01:20:26.486Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-08T01:20:26.511Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-08T02:12:37.112Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-08T02:12:37.147Z'
+}

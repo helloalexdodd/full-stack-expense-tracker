@@ -25,7 +25,7 @@ export default {
   actions: {
     async signIn({ commit, dispatch }, credentials) {
       try {
-        const { data } = await axios.post('users/login', credentials);
+        const { data } = await axios.post('users/login', credentials, { timeout: 10000 });
         const { token, user } = data;
         if (token) {
           commit('SET_TOKEN', token);
@@ -33,7 +33,8 @@ export default {
         commit('SET_USER', user);
         return data;
       } catch (err) {
-        dispatch('signOut');
+        if (err.message) return { data: err };
+        dispatch('auth/signOut');
         return err.response;
       }
     },
