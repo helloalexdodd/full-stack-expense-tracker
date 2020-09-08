@@ -1,11 +1,12 @@
-const mongoose = require('mongoose');
+const { Schema, model } = require('mongoose');
 const Joi = require('joi');
+Joi.objectId = require('joi-objectid')(Joi);
 const passwordComplexity = require('joi-password-complexity');
 const jwt = require('jsonwebtoken');
 const config = require('config');
 const bcrypt = require('bcrypt');
 
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema({
   username: {
     type: String,
     isRequired: true,
@@ -27,6 +28,8 @@ const userSchema = new mongoose.Schema({
     isRequired: true,
     trim: true,
   },
+  resetPasswordToken: { type: String },
+  resetPasswordExpires: { type: Date },
   isAdmin: Boolean,
   // loginAttempts: {
   //   type: Number,
@@ -47,12 +50,26 @@ userSchema.methods.comparePassword = function (password) {
   return bcrypt.compare(password, this.password);
 };
 
-const User = mongoose.model('User', userSchema);
+userSchema.methods.hasExpired = function () {
+  const now = Date.now();
+  return now - Date.parse(this.resetPasswordExpires) > 3600000; // One hour
+};
+
+const User = model('User', userSchema);
 
 const validateUser = (req) => {
   const schema = Joi.object({
     username: Joi.string().min(3).max(50).required(),
     email: Joi.string().min(5).max(255).required().email(),
+    password: passwordComplexity(),
+    resetPasswordToken: Joi.string().min(20).max(20),
+    resetPasswordExpires: Joi.date(),
+  });
+  return schema.validate(req);
+};
+
+const validatePassword = (req) => {
+  const schema = Joi.object({
     password: passwordComplexity(),
   });
   return schema.validate(req);
@@ -62,4 +79,5 @@ module.exports = {
   userSchema,
   User,
   validateUser,
+  validatePassword,
 };

@@ -56,8 +56,29 @@ export default {
       commit('SET_TOKEN', '');
       commit('SET_USER', {});
     },
-    async resetPassword() {
-      // const response = await axios.get();
+    async forgotPassword(_, email) {
+      try {
+        const { data } = await axios.post('users/forgot_password', { email });
+        return data;
+      } catch (err) {
+        return err;
+      }
+    },
+    async approveResetPassword(_, token) {
+      try {
+        const response = await axios.get(`users/reset_password?token=${token}`);
+        return response;
+      } catch (err) {
+        return err;
+      }
+    },
+    async resetPassword(_, { token, password }) {
+      try {
+        const response = await axios.put(`users/reset_password?token=${token}`, { password });
+        return response;
+      } catch (err) {
+        return err.response;
+      }
     },
   },
 };
