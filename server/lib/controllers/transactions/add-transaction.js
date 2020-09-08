@@ -1,6 +1,7 @@
+const { User } = require('models/user');
 const { Transaction } = require('models/transaction');
 
-const addTransaction = (req, res) => {
+const addTransaction = async (req, res) => {
   const { title, amount, notes, type } = req.body;
   const { _id } = req.user;
   const transaction = new Transaction({
@@ -10,7 +11,12 @@ const addTransaction = (req, res) => {
     type,
     user: _id,
   });
-  transaction.save();
+  await transaction.save();
+
+  const user = await User.findOne({ _id });
+  user.transactions.push(transaction._id);
+  await user.save();
+
   res.send(transaction);
 };
 

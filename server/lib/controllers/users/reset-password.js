@@ -4,9 +4,8 @@ const { User } = require('models/user');
 const resetPassword = async (req, res) => {
   const { token } = req.query;
   const { password } = req.body;
-  console.log({ token });
   const user = await User.findOne({ resetPasswordToken: token });
-  console.log({ user });
+
   if (password) {
     const salt = await bcrypt.genSalt(12);
     user.password = await bcrypt.hash(password, salt);

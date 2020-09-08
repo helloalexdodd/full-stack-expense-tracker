@@ -58,7 +58,7 @@ const forgotPassword = async (req, res) => {
   };
 
   transporter.sendMail(mailOptions, (err) => {
-    if (err) console.log('there was an error', err);
+    if (err) res.status(500).send(err);
     else
       res
         .status(200)

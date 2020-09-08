@@ -28,6 +28,7 @@ const userSchema = new Schema({
     isRequired: true,
     trim: true,
   },
+  transactions: [{ type: Schema.Types.ObjectId, ref: 'Transaction' }],
   resetPasswordToken: { type: String },
   resetPasswordExpires: { type: Date },
   isAdmin: Boolean,
