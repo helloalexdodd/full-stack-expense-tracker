@@ -1,22 +1,20 @@
 <template>
-  <section>
-    <div class="container">
+  <div class="container">
+    <div class="column is-half is-offset-one-quarter">
       <h1 class="title has-text-centered is-size-1">Expense Tracker</h1>
-      <div class="column is-half is-offset-one-quarter">
-        <totals title="Balance" :amount="calculateTotal('balance')" class="column is-half is-offset-one-quarter" />
-        <div class="columns">
-          <div class="column">
-            <totals title="Income" :amount="calculateTotal('income')" />
-          </div>
-          <div class="column">
-            <totals title="Expenses" :amount="calculateTotal('expenses')" />
-          </div>
+      <totals title="Balance" :amount="calculateTotal('balance')" class="column is-half is-offset-one-quarter" />
+      <div class="columns">
+        <div class="column">
+          <totals title="Income" :amount="calculateTotal('income')" />
         </div>
-        <tabs />
-        <transaction-history class="column" />
+        <div class="column">
+          <totals title="Expenses" :amount="calculateTotal('expenses')" />
+        </div>
       </div>
+      <tabs />
+      <transaction-history class="column" />
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -37,7 +35,8 @@ export default {
       transactions: 'transactions/transactions',
     }),
   },
-  mounted() {
+  created() {
+    console.log('created');
     this.getTransactions();
     this.getAccounts();
   },

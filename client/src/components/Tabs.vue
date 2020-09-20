@@ -1,5 +1,5 @@
 <template>
-  <b-tabs position="is-centered" class="block" expanded animated>
+  <b-tabs v-model="activeTab" position="is-centered" class="block" expanded animated>
     <b-tab-item label="Income">
       <transaction-form transaction-type="income" />
     </b-tab-item>
@@ -17,5 +17,8 @@ export default {
   components: {
     TransactionForm,
   },
+  data: () => ({
+    activeTab: 0,
+  }),
 };
 </script>

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import getUniqueArray from '@/utils/getUniqueArray';
 
 export default {
   namespaced: true,
@@ -70,14 +71,16 @@ export default {
   mutations: {
     SET_TRANSACTIONS(state, data) {
       if (data.length) {
-        state.transactions = [...data, ...state.transactions];
+        const transactions = [...data, ...state.transactions];
+        const uniqueTransactions = getUniqueArray(transactions);
+        state.transactions = uniqueTransactions;
       } else {
         state.transactions = [];
       }
     },
     RESET_TRANSACTION(state) {
       state.transaction = {
-        account: null,
+        account: '',
         description: '',
         amount: '',
         notes: '',
@@ -100,7 +103,9 @@ export default {
     },
     SET_ACCOUNTS(state, account) {
       if (account.length) {
-        state.accounts = [...state.accounts, ...account];
+        const accounts = [...state.accounts, ...account];
+        const uniqueAccounts = getUniqueArray(accounts);
+        state.accounts = uniqueAccounts;
       } else {
         state.accounts = [];
       }
