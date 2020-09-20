@@ -8,8 +8,10 @@ const getAllTransactions = async (req, res) => {
 
   const transactions = await Transaction.find({
     _id: { $in: user.transactions },
-  }).populate('account');
-
+  })
+    .populate('account')
+    .sort({ createdAt: -1 });
+  console.log(transactions);
   res.send(transactions);
 };
 
