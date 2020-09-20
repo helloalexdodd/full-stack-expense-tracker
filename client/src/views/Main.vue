@@ -36,7 +36,6 @@ export default {
     }),
   },
   created() {
-    console.log('created');
     this.getTransactions();
     this.getAccounts();
   },
