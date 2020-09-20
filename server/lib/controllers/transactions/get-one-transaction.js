@@ -6,4 +6,4 @@ const getOneTransaction = async (req, res) => {
   res.send(transaction);
 };
 
-module.exports = { getOneTransaction };
+module.exports = getOneTransaction;

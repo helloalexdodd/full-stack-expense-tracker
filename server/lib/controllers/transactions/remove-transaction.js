@@ -7,4 +7,4 @@ const removeTransaction = async (req, res) => {
   res.send(transaction);
 };
 
-module.exports = { removeTransaction };
+module.exports = removeTransaction;

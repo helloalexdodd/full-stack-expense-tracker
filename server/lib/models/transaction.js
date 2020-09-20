@@ -5,11 +5,13 @@ Joi.objectId = require('joi-objectid')(Joi);
 const transactionSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId,
+    ref: 'User',
   },
-  category: {
-    type: String,
+  account: {
+    type: Schema.Types.ObjectId,
+    ref: 'Account',
   },
-  title: {
+  description: {
     type: String,
     require: true,
   },
@@ -21,13 +23,13 @@ const transactionSchema = new Schema({
     type: String,
     trim: true,
   },
-  type: {
-    type: String,
-    required: true,
-  },
   showDetails: {
     type: Boolean,
     default: false,
+  },
+  type: {
+    type: String,
+    required: true,
   },
   createdAt: {
     type: Date,
@@ -39,12 +41,13 @@ const Transaction = model('Transaction', transactionSchema);
 
 const validateTransaction = (req) => {
   const schema = Joi.object({
-    user: Joi.objectId(),
-    title: Joi.string().max(25).required(),
+    user: Joi.objectId().required(),
+    account: Joi.objectId().required(),
+    description: Joi.string().max(25).required(),
     amount: Joi.number().min(0).max(999999).precision(2).positive().required(),
     notes: Joi.string().max(200),
-    type: Joi.string().valid('income', 'expense').required(),
     showDetails: Joi.boolean(),
+    type: Joi.string().valid('income', 'expense').required(),
     createdAt: Joi.date(),
   });
   return schema.validate(req);

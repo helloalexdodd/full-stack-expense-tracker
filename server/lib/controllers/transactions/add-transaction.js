@@ -1,23 +1,33 @@
-const { User } = require('models/user');
 const { Transaction } = require('models/transaction');
+const { User } = require('models/user');
+const { Account } = require('models/account');
 
 const addTransaction = async (req, res) => {
-  const { title, amount, notes, type } = req.body;
-  const { _id } = req.user;
+  const { account, description, amount, notes, type, user } = req.body;
+
   const transaction = new Transaction({
-    title,
+    account,
+    description,
     amount,
     notes,
     type,
-    user: _id,
+    user,
   });
   await transaction.save();
 
-  const user = await User.findOne({ _id });
-  user.transactions.push(transaction._id);
-  await user.save();
+  const databaseAccount = await Account.findOne({ _id: account });
+  transaction.account = databaseAccount._id;
+  await transaction.save();
 
-  res.send(transaction);
+  const userModel = await User.findOne({ _id: user });
+  userModel.transactions.push(transaction._id);
+  await userModel.save();
+
+  const newTransaction = await Transaction.findOne({
+    _id: transaction._id,
+  }).populate('account', 'name');
+
+  res.send(newTransaction);
 };
 
-module.exports = { addTransaction };
+module.exports = addTransaction;
