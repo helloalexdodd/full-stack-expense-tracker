@@ -1,7 +1,7 @@
 <template>
-  <section class="section">
+  <section>
     <div class="container">
-      <h1 class="title has-text-centered is-size-1 mt-6">Expense Tracker</h1>
+      <h1 class="title has-text-centered is-size-1">Expense Tracker</h1>
       <div class="column is-half is-offset-one-quarter">
         <totals title="Balance" :amount="calculateTotal('balance')" class="column is-half is-offset-one-quarter" />
         <div class="columns">
@@ -39,10 +39,12 @@ export default {
   },
   mounted() {
     this.getTransactions();
+    this.getAccounts();
   },
   methods: {
     ...mapActions({
       getTransactions: 'transactions/getTransactions',
+      getAccounts: 'transactions/getAccounts',
     }),
     getTotal(type) {
       return this.transactions
@@ -58,9 +60,19 @@ export default {
       const expenses = this.getTotal('expense');
       const balance = income - expenses;
       let total;
-      if (type === 'income') total = income;
-      if (type === 'expenses') total = expenses;
-      if (type === 'balance') total = balance.toFixed(2);
+      switch (type) {
+        case 'income':
+          total = income;
+          break;
+        case 'expenses':
+          total = expenses;
+          break;
+        case 'balance':
+          total = balance.toFixed(2);
+          break;
+        default:
+          total = 0;
+      }
       return `$${total}`;
     },
   },

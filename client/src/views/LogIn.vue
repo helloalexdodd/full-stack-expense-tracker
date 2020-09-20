@@ -1,30 +1,30 @@
 <template>
   <div>
-    <h1 class="title has-text-centered is-size-1 mt-6">Log In</h1>
+    <h1 class="title has-text-centered is-size-1">Log In</h1>
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
-      <form @submit.prevent="handleSubmit" action="GET" class="my-5">
+      <form action="GET" class="my-5" @submit.prevent="handleSubmit">
         <b-field label="Username" for="username" :type="usernameValidation">
-          <b-input v-model="user.username" id="username" name="username" placeholder="Username"></b-input>
+          <b-input id="username" v-model="user.username" name="username" placeholder="Username" />
         </b-field>
         <b-field label="Password" for="password" :type="passwordValidation" :message="passwordMessage">
           <b-input
+            id="password"
             v-model="user.password"
             type="password"
-            id="password"
             name="password"
             placeholder="Password"
             password-reveal
-          ></b-input>
+          />
         </b-field>
         <div class="buttons is-centered">
-          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold">Log In</b-button>
+          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold"> Log In </b-button>
         </div>
         <div class="level">
           <div class="level-left">
-            <router-link class="level-item" to="/signup">Sign Up</router-link>
+            <router-link class="level-item" to="/signup"> Sign Up </router-link>
           </div>
           <div class="level-right">
-            <router-link class="level-item" to="/forgotpassword">Forgot Password</router-link>
+            <router-link class="level-item" to="/forgotpassword"> Forgot Password </router-link>
           </div>
         </div>
       </form>

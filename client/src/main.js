@@ -21,5 +21,6 @@ Vue.prototype.$http.defaults.baseURL = 'http://localhost:5000/v1/';
 new Vue({
   router,
   store,
+  strict: process.env.NODE_ENV !== 'production',
   render: (h) => h(App),
 }).$mount('#app');

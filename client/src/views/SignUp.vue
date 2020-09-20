@@ -1,45 +1,26 @@
 <template>
   <div>
-    <h1 class="title has-text-centered is-size-1 mt-6">Sign Up</h1>
+    <h1 class="title has-text-centered is-size-1">Sign Up</h1>
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
-      <form @submit.prevent="handleSubmit" action="GET" class="my-5">
-        <b-field
-          label="Username"
-          for="username"
-          :type="usernameInvalid"
-          :message="usernameValidation"
-        >
-          <b-input v-model="user.username" id="username" name="username" placeholder="Username"></b-input>
+      <form action="GET" class="my-5" @submit.prevent="handleSubmit">
+        <b-field label="Username" for="username" :type="usernameInvalid" :message="usernameValidation">
+          <b-input id="username" v-model="user.username" name="username" placeholder="Username" />
         </b-field>
         <b-field label="Email" for="email" :type="emailInvalid" :message="emailValidation">
-          <b-input
-            v-model="user.email"
-            native-type="email"
-            id="email"
-            name="email"
-            placeholder="Email"
-          ></b-input>
+          <b-input id="email" v-model="user.email" native-type="email" name="email" placeholder="Email" />
         </b-field>
-        <b-field
-          label="Password"
-          for="password"
-          :type="passwordInvalid"
-          :message="passwordValidation"
-        >
+        <b-field label="Password" for="password" :type="passwordInvalid" :message="passwordValidation">
           <b-input
+            id="password"
             v-model="user.password"
             type="password"
-            id="password"
             name="password"
             placeholder="Password"
             password-reveal
-          ></b-input>
+          />
         </b-field>
         <div class="buttons is-centered">
-          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold">
-            <!--  -->
-            Sign Up
-          </b-button>
+          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold">Sign Up</b-button>
         </div>
         <div class="level">
           <div class="level-left">

@@ -1,6 +1,8 @@
 <template>
   <div class="box has-text-centered">
-    <h3 class="has-text-weight-bold">{{ title }}</h3>
+    <h3 class="has-text-weight-bold">
+      {{ title }}
+    </h3>
     <p class="has-text-weight-semibold is-size-4" :class="textColor()">
       {{ amount }}
     </p>
@@ -13,9 +15,11 @@ export default {
   props: {
     title: {
       type: String,
+      required: true,
     },
     amount: {
       type: String,
+      required: true,
     },
   },
   methods: {

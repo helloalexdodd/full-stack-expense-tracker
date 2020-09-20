@@ -4,7 +4,7 @@ export default {
   namespaced: true,
   state: {
     token: localStorage.getItem('x-auth-token') || '',
-    user: {},
+    user: JSON.parse(localStorage.getItem('user')) || {},
   },
   getters: {
     authenticated(state) {
@@ -56,6 +56,8 @@ export default {
     signOut({ commit }) {
       commit('SET_TOKEN', '');
       commit('SET_USER', {});
+      commit('transactions/SET_TRANSACTIONS', [], { root: true });
+      commit('transactions/SET_ACCOUNTS', [], { root: true });
     },
     async forgotPassword(_, email) {
       try {
