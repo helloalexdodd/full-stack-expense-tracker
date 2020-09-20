@@ -4,8 +4,9 @@ const { Transaction } = require('models/transaction');
 
 const removeAccount = async (req, res) => {
   const { id } = req.params;
-  console.log({ id });
-  const transactions = await Transaction.findOne({ accounts: id });
+
+  const transactions = await Transaction.findOne({ account: id });
+
   if (transactions)
     return res.status(409).send({
       message:
@@ -14,7 +15,6 @@ const removeAccount = async (req, res) => {
 
   const user = await User.findOne({ accounts: id });
   user.transactions = user.transactions.filter((t) => t !== id);
-  console.log(user);
   await user.save();
 
   const account = await Account.findByIdAndRemove({ _id: id });
