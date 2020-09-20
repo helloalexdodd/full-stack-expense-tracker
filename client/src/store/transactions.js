@@ -70,7 +70,7 @@ export default {
   mutations: {
     SET_TRANSACTIONS(state, data) {
       if (data.length) {
-        state.transactions = [...state.transactions, ...data];
+        state.transactions = [...data, ...state.transactions];
       } else {
         state.transactions = [];
       }
@@ -149,6 +149,22 @@ export default {
       } catch (err) {
         const error = err.response.data.details[0];
         dispatch('handleErrors', error);
+      }
+    },
+    async editTransaction(_, transaction) {
+      try {
+        const newTransaction = {
+          account: transaction.account._id,
+          description: transaction.description,
+          amount: transaction.amount,
+          notes: transaction.notes,
+          type: transaction.type,
+          user: transaction.user,
+        };
+        const { data } = await axios.put(`transactions/${transaction._id}`, newTransaction);
+        return data;
+      } catch (err) {
+        return err.response;
       }
     },
     async removeTransaction({ commit, state }, id) {

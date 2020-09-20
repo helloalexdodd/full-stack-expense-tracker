@@ -6,6 +6,7 @@ const { validateTransaction } = require('models/transaction');
 const getOneTransaction = require('controllers/transactions/get-one-transaction');
 const getAllTransactions = require('controllers/transactions/get-all-transactions');
 const addTransaction = require('controllers/transactions/add-transaction');
+const updateTransaction = require('controllers/transactions/update-transaction');
 const removeTransaction = require('controllers/transactions/remove-transaction');
 
 const router = express.Router();
@@ -15,6 +16,8 @@ router.get('/', auth, getAllTransactions);
 router.get('/:id', auth, getOneTransaction);
 
 router.post('/', [auth, validate(validateTransaction)], addTransaction);
+
+router.put('/:id', [auth, validate(validateTransaction)], updateTransaction);
 
 router.delete('/:id', auth, removeTransaction);
 

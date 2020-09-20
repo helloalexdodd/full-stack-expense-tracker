@@ -35,6 +35,10 @@ const transactionSchema = new Schema({
     type: Date,
     default: Date.now,
   },
+  editNote: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const Transaction = model('Transaction', transactionSchema);

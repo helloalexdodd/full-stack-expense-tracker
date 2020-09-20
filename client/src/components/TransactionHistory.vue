@@ -2,21 +2,27 @@
   <div>
     <h2 class="legend my-3 py-2">Transaction History</h2>
     <p v-if="!transactions.length">Enter a transaction to add it to your history!</p>
-    <div v-for="transaction in transactions" :key="transaction._id" :class="transaction.type" class="box">
+    <div
+      v-for="transaction in transactions"
+      @click="transaction.showDetails = !transaction.showDetails"
+      :key="transaction._id"
+      :class="transaction.type"
+      class="box"
+    >
       <div class="columns">
-        <div class="column" @click="transaction.showDetails = !transaction.showDetails">
+        <div class="column">
           <h3 class="has-text-weight-bold">
             {{ transaction.description }}
           </h3>
         </div>
-        <div class="column" @click="transaction.showDetails = !transaction.showDetails">
+        <div class="column">
           <p class="has-text-right">${{ transaction.amount.toFixed(2) }}</p>
         </div>
         <div class="buttons">
-          <b-button type="is-danger" icon-right="delete" @click="removeTransaction(transaction._id)" />
+          <b-button type="is-danger" icon-right="delete" @click="removeTransaction(transaction._id)" @click.stop />
         </div>
       </div>
-      <div v-if="transaction.showDetails" class="column is-full">
+      <div v-if="transaction.showDetails" class="column is-full" @click.stop>
         <div class="columns">
           <h4 class="column has-text-weight-medium">
             {{ transaction.account.name }}
@@ -25,8 +31,31 @@
             {{ formatDate(transaction) }}
           </h4>
         </div>
-        <div class="columns">
-          <p class="column">{{ transaction.notes }}</p>
+        <div v-if="!transaction.editNote" @click="transaction.editNote = !transaction.editNote" class="level">
+          <p class="level-left">{{ transaction.notes }}</p>
+          <b-icon class="level-right" icon="pencil-outline" size="is-small"> </b-icon>
+        </div>
+        <div v-else>
+          <b-field for="notes">
+            <b-input id="notes" v-model="transaction.notes" type="textarea" name="notes" />
+          </b-field>
+          <div class="level">
+            <div class="level-left"></div>
+            <div class="buttons level-right">
+              <b-button
+                class="level-item"
+                type="is-success"
+                icon-right="check"
+                @click="updateTransaction(transaction)"
+              />
+              <b-button
+                class="level-item"
+                type="is-danger"
+                icon-right="delete"
+                @click="transaction.editNote = !transaction.editNote"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -43,13 +72,21 @@ export default {
     }),
   },
   methods: {
-    ...mapActions({ removeTransaction: 'transactions/removeTransaction' }),
+    ...mapActions({
+      removeTransaction: 'transactions/removeTransaction',
+      editTransaction: 'transactions/editTransaction',
+    }),
     formatDate(transaction) {
       return new Date(transaction.createdAt).toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
       });
+    },
+    async updateTransaction(transaction) {
+      await this.editTransaction(transaction);
+      /* eslint-disable-next-line no-param-reassign */
+      transaction.editNote = false;
     },
   },
 };
@@ -62,9 +99,15 @@ export default {
 
 .box.expense {
   border-left: 5px solid #f03a5f;
+  cursor: pointer;
 }
 
-.box {
+.box,
+.column.column.is-full .level {
   cursor: pointer;
+}
+
+.column.is-full {
+  cursor: default;
 }
 </style>

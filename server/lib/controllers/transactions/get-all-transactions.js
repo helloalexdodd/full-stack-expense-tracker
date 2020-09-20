@@ -11,7 +11,7 @@ const getAllTransactions = async (req, res) => {
   })
     .populate('account')
     .sort({ createdAt: -1 });
-  console.log(transactions);
+
   res.send(transactions);
 };
 
