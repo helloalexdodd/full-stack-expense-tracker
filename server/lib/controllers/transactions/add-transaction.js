@@ -3,6 +3,7 @@ const { User } = require('models/user');
 const { Account } = require('models/account');
 
 const addTransaction = async (req, res) => {
+  console.log('firing?');
   const { account, description, amount, notes, type, user } = req.body;
 
   const transaction = new Transaction({
