@@ -50075,3 +50075,416 @@
   level: 'info',
   timestamp: '2020-09-20T21:08:00.139Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-20T23:08:21.425Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-20T23:08:21.451Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-20T23:08:59.021Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-20T23:08:59.044Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-20T23:09:00.686Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-20T23:09:00.708Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-20T23:09:16.471Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-20T23:09:16.496Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-20T23:12:22.061Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-20T23:12:22.086Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-20T23:12:28.872Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-20T23:12:28.896Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:38:57.456Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:38:57.476Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:39:03.907Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:39:03.932Z'
+}
+{
+  error: /Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/accounts/get-all-accounts.js:10
+    const accounts = user.accounts.map((account) => ({ name: account.name, _id: account._id };
+                                                                                             ^
+  
+  SyntaxError: Unexpected token ';'
+      at wrapSafe (internal/modules/cjs/loader.js:1167:16)
+      at Module._compile (internal/modules/cjs/loader.js:1215:27)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/accounts.js:8:21)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:18)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ';'\n" +
+    '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/accounts/get-all-accounts.js:10\n' +
+    '  const accounts = user.accounts.map((account) => ({ name: account.name, _id: account._id };\n' +
+    '                                                                                           ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ';'\n" +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1167:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1215:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/accounts.js:8:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  stack: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/accounts/get-all-accounts.js:10\n' +
+    '  const accounts = user.accounts.map((account) => ({ name: account.name, _id: account._id };\n' +
+    '                                                                                           ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ';'\n" +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1167:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1215:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/accounts.js:8:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:3:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)',
+  exception: true,
+  date: 'Sun Sep 20 2020 21:40:01 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 23445,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66228224,
+      heapTotal: 53637120,
+      heapUsed: 22650832,
+      external: 19909423,
+      arrayBuffers: 18419901
+    }
+  },
+  os: {
+    loadavg: [ 2.7939453125, 2.61669921875, 2.38818359375 ],
+    uptime: 212757
+  },
+  trace: [
+    {
+      column: 16,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'wrapSafe',
+      line: 1167,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1215,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/accounts.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2020-09-21T01:40:01.700Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:40:04.938Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:40:04.961Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:15.177Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:15.200Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:30.603Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:30.629Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:41.956Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:41.980Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:47.139Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:47.166Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:53.838Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:41:53.862Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:20.798Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:20.822Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:32.957Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:32.981Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:35.504Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:35.528Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:43.875Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:42:43.899Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-21T01:43:15.036Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-21T01:43:15.060Z'
+}
