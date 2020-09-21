@@ -1,4 +1,4 @@
-This project was created using [Vue.js](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/), and[Buefy](https://buefy.org/) on the front end and [Node](https://nodejs.org/en/), [Express](http://expressjs.com/), and [MongoDB](https://www.mongodb.com/).
+This project was created using [Vue.js](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/), and[Buefy](https://buefy.org/) on the front end and [Node](https://nodejs.org/en/), [Express](http://expressjs.com/), and [MongoDB](https://www.mongodb.com/) on the back.
 
 ## Available Scripts
 
@@ -21,3 +21,5 @@ after initial download, and run:
 ### `npm run dev`
 
 to run the back end of this application in development mode.
+
+You must run both front and back ends of this application for it to function.
