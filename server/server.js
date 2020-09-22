@@ -17,6 +17,7 @@ app.use((req, res, next) => {
 
 require('express-async-errors');
 require('./config/db')();
+
 require('routes')(app);
 
 const PORT = config.get('port') || 5000;

@@ -25,11 +25,9 @@ export default {
   actions: {
     async signIn({ commit }, credentials) {
       try {
-        const { data } = await axios.post('users/login', credentials, { timeout: 10000 });
+        const { data } = await axios.post('users/login', credentials);
         const { token, user } = data;
-        if (token) {
-          commit('SET_TOKEN', token);
-        }
+        commit('SET_TOKEN', token);
         commit('SET_USER', user);
         return data;
       } catch (err) {
@@ -41,15 +39,10 @@ export default {
       try {
         const { data } = await axios.post('users/register', credentials);
         const { token, user } = data;
-        if (token) {
-          commit('SET_TOKEN', token);
-        }
+        commit('SET_TOKEN', token);
         commit('SET_USER', user);
-
-        return data;
       } catch (err) {
         dispatch('signOut');
-        return err.response;
       }
     },
     signOut({ commit }) {

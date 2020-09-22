@@ -4,15 +4,15 @@
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
       <form action="GET" class="my-5" @submit.prevent="handleSubmit">
         <b-field label="Username" for="username" :type="usernameInvalid" :message="usernameValidation">
-          <b-input id="username" v-model="user.username" name="username" placeholder="Username" />
+          <b-input v-model="user.username" id="username" name="username" placeholder="Username" />
         </b-field>
         <b-field label="Email" for="email" :type="emailInvalid" :message="emailValidation">
-          <b-input id="email" v-model="user.email" native-type="email" name="email" placeholder="Email" />
+          <b-input v-model="user.email" id="email" native-type="email" name="email" placeholder="Email" />
         </b-field>
         <b-field label="Password" for="password" :type="passwordInvalid" :message="passwordValidation">
           <b-input
-            id="password"
             v-model="user.password"
+            id="password"
             type="password"
             name="password"
             placeholder="Password"

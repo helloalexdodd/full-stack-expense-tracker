@@ -4,7 +4,7 @@ module.exports = {
   port: process.env.PORT,
   jwtPrivateKey: '',
   db: 'mongodb://localhost/expense-tracker',
-  emailAddress: process.env.EMAIL_ADDRESS,
-  emailPassword: process.env.EMAIL_PASSWORD,
+  emailAddress: '',
+  emailPassword: '',
   baseUrl: 'http://localhost:8080/#',
 };
