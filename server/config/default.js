@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
-  port: process.env.PORT,
+  port: '',
   jwtPrivateKey: '',
   db: 'mongodb://localhost/expense-tracker',
   emailAddress: '',

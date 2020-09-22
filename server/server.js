@@ -20,6 +20,6 @@ require('./config/db')();
 
 require('routes')(app);
 
-const PORT = config.get('port') || 5000;
+const PORT = config.get('port');
 
 app.listen(PORT, () => logger.info(`App listening on port ${PORT}.....`));

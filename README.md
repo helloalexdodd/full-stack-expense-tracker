@@ -24,6 +24,8 @@ after initial download, and run:
 
 to run the back end of this application in development mode. You will also need to connect to a Mongo Database in order to record any activity locally.
 
-You will also need to create environment variables for the email and password if you want to test the Forgot Password functionality locally. If you run into any errors on the server check `server/logger/logfile.log` for the latest errors.
+You will also need to create environment variables for the email and password if you want to test the Forgot Password functionality locally.
+
+If you run into any errors on the server check `server/logger/logfile.log` for the latest errors.
 
 #### You must run both front and back ends of this application for it to function.
