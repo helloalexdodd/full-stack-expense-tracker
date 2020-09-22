@@ -4,7 +4,7 @@ const { Account } = require('models/account');
 
 const addTransaction = async (req, res) => {
   const { account, description, amount, notes, type, user } = req.body;
-  console.log('addTransaction', req.body);
+
   const transaction = new Transaction({
     account,
     description,

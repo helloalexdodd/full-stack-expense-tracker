@@ -7,7 +7,7 @@ const updateTransaction = async (req, res) => {
     req.params.id,
     { account, description, amount, notes, type, user },
     { new: true }
-  );
+  ).populate('account');
   if (!transaction) return res.status(404).send('No transactions found.');
 
   res.send(transaction);
