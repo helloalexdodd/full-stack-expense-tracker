@@ -50498,3 +50498,975 @@
   level: 'info',
   timestamp: '2020-09-21T23:50:47.945Z'
 }
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:25:00.849Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:25:00.881Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:25:50.825Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:25:50.846Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:26:20.031Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:26:20.057Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:26:21.430Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:26:21.451Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:27:00.469Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:27:00.490Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:27:36.035Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:27:36.059Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:28:15.069Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:28:15.093Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:28:17.840Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:28:17.868Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:28:28.590Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:28:28.618Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:30:08.470Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:30:08.492Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:30:31.634Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:30:31.658Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:11.631Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:11.661Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:27.410Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:27.434Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:29.995Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:30.021Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:32.037Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:32.061Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:46.573Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:31:46.604Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:32:00.148Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:32:00.173Z'
+}
+{
+  error: Error: Configuration property "emailAddress" is not defined
+      at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15),
+  level: 'error',
+  message: 'uncaughtException: Configuration property "emailAddress" is not defined\n' +
+    'Error: Configuration property "emailAddress" is not defined\n' +
+    '    at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15)',
+  stack: 'Error: Configuration property "emailAddress" is not defined\n' +
+    '    at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15)',
+  exception: true,
+  date: 'Mon Sep 21 2020 21:32:43 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 39421,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66428928,
+      heapTotal: 53899264,
+      heapUsed: 26605024,
+      external: 20526336,
+      arrayBuffers: 19015825
+    }
+  },
+  os: {
+    loadavg: [ 3.4267578125, 3.23046875, 3.03369140625 ],
+    uptime: 298718
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js',
+      function: 'Config.get',
+      line: 182,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-09-22T01:32:43.091Z'
+}
+{
+  error: Error: Configuration property "emailAddress" is not defined
+      at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15),
+  level: 'error',
+  message: 'uncaughtException: Configuration property "emailAddress" is not defined\n' +
+    'Error: Configuration property "emailAddress" is not defined\n' +
+    '    at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15)',
+  stack: 'Error: Configuration property "emailAddress" is not defined\n' +
+    '    at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15)',
+  exception: true,
+  date: 'Mon Sep 21 2020 21:33:00 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 39423,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 65769472,
+      heapTotal: 53637120,
+      heapUsed: 26888616,
+      external: 20504057,
+      arrayBuffers: 18993546
+    }
+  },
+  os: {
+    loadavg: [ 3.54150390625, 3.26708984375, 3.0498046875 ],
+    uptime: 298735
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js',
+      function: 'Config.get',
+      line: 182,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-09-22T01:33:00.359Z'
+}
+{
+  error: Error: Configuration property "emailAddress" is not defined
+      at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Module.require (internal/modules/cjs/loader.js:1140:19)
+      at require (internal/modules/cjs/helpers.js:75:18)
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15),
+  level: 'error',
+  message: 'uncaughtException: Configuration property "emailAddress" is not defined\n' +
+    'Error: Configuration property "emailAddress" is not defined\n' +
+    '    at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15)',
+  stack: 'Error: Configuration property "emailAddress" is not defined\n' +
+    '    at Config.get (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js:182:11)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js:7:29)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js:8:24)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1140:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:75:18)\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js:4:15)',
+  exception: true,
+  date: 'Mon Sep 21 2020 21:35:36 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 39512,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66678784,
+      heapTotal: 53899264,
+      heapUsed: 26946552,
+      external: 20526025,
+      arrayBuffers: 19015514
+    }
+  },
+  os: {
+    loadavg: [ 4.9443359375, 3.4892578125, 3.14404296875 ],
+    uptime: 298891
+  },
+  trace: [
+    {
+      column: 11,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/node_modules/config/lib/config.js',
+      function: 'Config.get',
+      line: 182,
+      method: 'get',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/controllers/users/forgot-password.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/users.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1140,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 75,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/lib/routes/index.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-09-22T01:35:36.122Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:35:41.229Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:35:41.255Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:35:45.021Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:35:45.046Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:35:48.128Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:35:48.154Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:36:47.144Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:36:47.168Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:36:55.106Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:36:55.131Z'
+}
+{
+  error: ReferenceError: config is not defined
+      at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:22:14)
+      at Module._compile (internal/modules/cjs/loader.js:1251:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)
+      at Module.load (internal/modules/cjs/loader.js:1100:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:962:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: config is not defined\n' +
+    'ReferenceError: config is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:22:14)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'ReferenceError: config is not defined\n' +
+    '    at Object.<anonymous> (/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js:22:14)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1251:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1272:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1100:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:962:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Mon Sep 21 2020 21:37:34 GMT-0400 (Eastern Daylight Time)',
+  process: {
+    pid: 39625,
+    uid: 778674257,
+    gid: 1173174446,
+    cwd: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server',
+    execPath: '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+    version: 'v14.8.0',
+    argv: [
+      '/Users/adodd/.nvm/versions/node/v14.8.0/bin/node',
+      '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js'
+    ],
+    memoryUsage: {
+      rss: 66613248,
+      heapTotal: 53637120,
+      heapUsed: 26988032,
+      external: 20526025,
+      arrayBuffers: 19015514
+    }
+  },
+  os: { loadavg: [ 4.2421875, 3.572265625, 3.2119140625 ], uptime: 299009 },
+  trace: [
+    {
+      column: 14,
+      file: '/Users/adodd/Documents/Learning/full-stack-expense-tracker/server/server.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1251,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1272,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 1100,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 962,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2020-09-22T01:37:34.957Z'
+}
+{
+  message: 'App listening on port 5000.....',
+  level: 'info',
+  timestamp: '2020-09-22T01:38:54.059Z'
+}
+{
+  message: 'Connected to mongodb://localhost/expense-tracker...',
+  level: 'info',
+  timestamp: '2020-09-22T01:38:54.081Z'
+}

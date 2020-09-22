@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { logger } = require('logger');
+const config = require('config');
 
 const app = express();
 app.use(express.json());
@@ -18,6 +19,6 @@ require('express-async-errors');
 require('./config/db')();
 require('routes')(app);
 
-const PORT = process.env.PORT || 5000;
+const PORT = config.get('port') || 5000;
 
 app.listen(PORT, () => logger.info(`App listening on port ${PORT}.....`));

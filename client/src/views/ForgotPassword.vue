@@ -38,6 +38,7 @@ export default {
       forgotPassword: 'auth/forgotPassword',
     }),
     async handleSubmit() {
+      this.message = '';
       const data = await this.forgotPassword(this.email);
       this.message = data.message;
     },
