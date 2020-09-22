@@ -22,7 +22,7 @@ after initial download, and run:
 
 ### `npm run dev`
 
-to run the back end of this application in development mode.
+to run the back end of this application in development mode. You will also need to connect to a Mongo Database in order to record any activity locally.
 
 You will also need to create environment variables for the email and password if you want to test the Forgot Password functionality locally. Otherwise everthing should work as is.
 
