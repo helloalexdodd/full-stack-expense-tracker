@@ -31,7 +31,7 @@
             {{ formatDate(transaction) }}
           </h4>
         </div>
-        <div v-if="!transaction.editNote" @click="transaction.editNote = !transaction.editNote" class="level">
+        <div v-if="!transaction.editNote" @click="openEdit(transaction)" class="level">
           <p class="level-left">{{ transaction.notes }}</p>
           <b-icon class="level-right" icon="pencil-outline" size="is-small"> </b-icon>
         </div>
@@ -48,12 +48,7 @@
                 icon-right="check"
                 @click="updateTransaction(transaction)"
               />
-              <b-button
-                class="level-item"
-                type="is-danger"
-                icon-right="delete"
-                @click="transaction.editNote = !transaction.editNote"
-              />
+              <b-button class="level-item" type="is-danger" icon-right="delete" @click="abandonEdit(transaction)" />
             </div>
           </div>
         </div>
@@ -63,9 +58,13 @@
 </template>
 
 <script>
+/* eslint-disable no-param-reassign */
 import { mapActions, mapGetters } from 'vuex';
 
 export default {
+  data: () => ({
+    oldNote: '',
+  }),
   computed: {
     ...mapGetters({
       transactions: 'transactions/transactions',
@@ -85,8 +84,16 @@ export default {
     },
     async updateTransaction(transaction) {
       await this.editTransaction(transaction);
-      /* eslint-disable-next-line no-param-reassign */
       transaction.editNote = false;
+    },
+    openEdit(transaction) {
+      this.oldNote = transaction.notes;
+      transaction.editNote = !transaction.editNote;
+    },
+    abandonEdit(transaction) {
+      transaction.notes = this.oldNote;
+      this.oldNote = '';
+      transaction.editNote = !transaction.editNote;
     },
   },
 };
