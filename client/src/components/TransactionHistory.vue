@@ -4,7 +4,7 @@
     <p v-if="!transactions.length">Enter a transaction to add it to your history!</p>
     <div
       v-for="transaction in transactions"
-      @click="transaction.showDetails = !transaction.showDetails"
+      @click="toggleShowDetails(transaction)"
       :key="transaction._id"
       :class="transaction.type"
       class="box"
@@ -86,14 +86,18 @@ export default {
       await this.editTransaction(transaction);
       transaction.editNote = false;
     },
+    toggleShowDetails(transaction) {
+      if (transaction.showDetails) transaction.editNote = false;
+      transaction.showDetails = !transaction.showDetails;
+    },
     openEdit(transaction) {
       this.oldNote = transaction.notes;
-      transaction.editNote = !transaction.editNote;
+      transaction.editNote = true;
     },
     abandonEdit(transaction) {
       transaction.notes = this.oldNote;
       this.oldNote = '';
-      transaction.editNote = !transaction.editNote;
+      transaction.editNote = false;
     },
   },
 };

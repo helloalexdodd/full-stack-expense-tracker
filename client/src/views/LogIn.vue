@@ -4,12 +4,12 @@
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
       <form action="GET" class="my-5" @submit.prevent="handleSubmit">
         <b-field label="Username" for="username" :type="usernameValidation">
-          <b-input id="username" v-model="user.username" name="username" placeholder="Username" />
+          <b-input v-model="user.username" id="username" name="username" placeholder="Username" />
         </b-field>
         <b-field label="Password" for="password" :type="passwordValidation" :message="passwordMessage">
           <b-input
-            id="password"
             v-model="user.password"
+            id="password"
             type="password"
             name="password"
             placeholder="Password"
@@ -55,7 +55,7 @@ export default {
       if (data) {
         this.usernameValidation = 'is-danger';
         this.passwordValidation = 'is-danger';
-        this.passwordMessage = data.message;
+        this.passwordMessage = data;
       } else {
         this.$router.push('/');
       }
