@@ -26,4 +26,4 @@ to run the back end of this application in development mode.
 
 You will also need to create environment variables for the email and password if you want to test the Forgot Password functionality locally. Otherwise everthing should work as is.
 
-# You must run both front and back ends of this application for it to function.
+#### You must run both front and back ends of this application for it to function.
