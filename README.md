@@ -1,4 +1,4 @@
-This project was created using [Vue.js](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/), and[Buefy](https://buefy.org/) on the front end and [Node](https://nodejs.org/en/), [Express](http://expressjs.com/), and [MongoDB](https://www.mongodb.com/) on the back.
+This project was created using [Vue.js](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/), and [Buefy](https://buefy.org/) on the front end and [Node](https://nodejs.org/en/), [Express](http://expressjs.com/), and [MongoDB](https://www.mongodb.com/) on the back.
 
 ## For the Front End
 
