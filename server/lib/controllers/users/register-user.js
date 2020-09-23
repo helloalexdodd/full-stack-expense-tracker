@@ -9,7 +9,7 @@ const registerUser = async (req, res) => {
 
   user = await User.findOne({ email });
   if (user)
-    return res.status(400).send({
+    return res.status(409).send({
       message: 'A user has already registered with this email address.',
     });
 
@@ -21,7 +21,9 @@ const registerUser = async (req, res) => {
   user.password = await bcrypt.hash(password, salt);
 
   const { _id } = await user.save();
+
   const token = user.generateAuthToken();
+
   res
     .header('x-auth-token', token)
     .send({ user: { _id, username, email }, token });
