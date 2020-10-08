@@ -53,6 +53,16 @@ export default {
     emailInvalid: '',
     emailValidation: '',
   }),
+  computed: {
+    ...mapGetters({
+      usernameInvalid: 'transactions/usernameInvalid',
+      usernameValidation: 'transactions/usernameValidation',
+      emailInvalid: 'transactions/emailInvalid',
+      emailValidation: 'transactions/emailValidation',
+      passwordInvalid: 'transactions/passwordInvalid',
+      passwordValidation: 'transactions/passwordValidation',
+    }),
+  },
   methods: {
     ...mapActions({
       registerUser: 'auth/registerUser',
@@ -67,8 +77,8 @@ export default {
 
       const { data } = await this.registerUser(this.user);
 
-      const error = data?.details[0].message;
-
+      const error = data.message;
+      console.log(data);
       if (error) {
         if (error.includes('username')) {
           this.usernameInvalid = 'is-danger';
