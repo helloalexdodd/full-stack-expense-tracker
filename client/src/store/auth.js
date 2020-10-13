@@ -19,6 +19,24 @@ export default {
     user(state) {
       return state.user;
     },
+    usernameInvalid(state) {
+      return state.usernameInvalid;
+    },
+    usernameValidation(state) {
+      return state.usernameValidation;
+    },
+    emailInvalid(state) {
+      return state.emailInvalid;
+    },
+    emailValidation(state) {
+      return state.emailValidation;
+    },
+    passwordInvalid(state) {
+      return state.passwordInvalid;
+    },
+    passwordValidation(state) {
+      return state.passwordValidation;
+    },
   },
   mutations: {
     SET_TOKEN(state, token) {
@@ -61,15 +79,15 @@ export default {
     async registerUser({ commit, dispatch }, credentials) {
       try {
         commit('RESET_ERRORS');
-        const { data } = await axios.post('users/register', credentials);
+        const data = await axios.post('users/register', credentials);
+        console.log(data);
         const { token, user } = data;
         commit('SET_TOKEN', token);
         commit('SET_USER', user);
         console.log(data);
         return data;
       } catch (err) {
-        console.log(err.response.data.details[0]);
-        const error = err.response.data.details[0];
+        const error = err.response.data?.details[0];
         dispatch('handleErrors', error);
         dispatch('signOut');
         return error;
