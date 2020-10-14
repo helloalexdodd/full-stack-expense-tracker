@@ -62,8 +62,8 @@ export default {
       registerUser: 'auth/registerUser',
     }),
     async handleSubmit() {
-      await this.registerUser(this.user);
-      this.$router.push('/');
+      const { message } = await this.registerUser(this.user);
+      if (!message) this.$router.push('/');
     },
   },
 };
