@@ -102,12 +102,9 @@ export default {
       state.transaction.notes = notes;
     },
     SET_ACCOUNTS(state, account) {
-      console.log('SET_ACCOUNTS', account);
       if (account.length) {
         const accounts = [...state.accounts, ...account];
-        console.log(accounts);
         const uniqueAccounts = getUniqueArray(accounts);
-        console.log(uniqueAccounts);
         state.accounts = uniqueAccounts;
       } else {
         state.accounts = [];
@@ -197,7 +194,6 @@ export default {
     async addAccount({ commit }, newAccount) {
       try {
         const { data } = await axios.post('accounts', { name: newAccount });
-        console.log({ data });
         commit('SET_ACCOUNTS', [{ name: data.name, id: data._id }]);
         return data;
       } catch (err) {

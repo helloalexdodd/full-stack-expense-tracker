@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer mt-4">
+  <footer class="footer">
     <div class="content has-text-centered">
       <p>
         <strong>Expense Tracker</strong> by <a href="https://github.com/helloalexdodd">Alex Dodd</a>. The source code is
@@ -16,6 +16,6 @@ export default {
 </script>
 <style>
 footer {
-  padding: 2rem 1rem 4rem;
+  margin-top: auto;
 }
 </style>

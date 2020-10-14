@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="body">
     <the-sidebar />
     <router-view />
     <Footer />
@@ -18,3 +18,11 @@ export default {
   },
 };
 </script>
+<style>
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100vh;
+}
+</style>
