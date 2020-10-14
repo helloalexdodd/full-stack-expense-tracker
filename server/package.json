@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm jest",
-    "start": "node server.js",
+    "start": "npm run alias && node server.js",
     "dev": "npm run alias && nodemon server.js",
     "alias": "link-module-alias"
   },

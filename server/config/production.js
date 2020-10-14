@@ -2,7 +2,7 @@ require('dotenv').config();
 
 module.exports = {
   port: process.env.PORT || 5000,
-  jwtPrivateKey: 'super_secret_key',
+  jwtPrivateKey: process.env.SUPER_SECRET_KEY,
   db: process.env.DB,
   emailAddress: process.env.EMAIL_ADDRESS || '',
   emailPassword: process.env.EMAIL_PASSWORD || '',
