@@ -10,6 +10,7 @@
       :fullwidth="fullwidth"
       :overlay="overlay"
       :right="right"
+      :can-cancel="canCancel"
     >
       <div class="section">
         <b-menu>
@@ -53,11 +54,12 @@ export default {
   name: 'Sidebar',
   data() {
     return {
-      open: false,
+      open: true,
       overlay: false,
       fullheight: true,
       fullwidth: false,
       right: false,
+      canCancel: ['escape', 'outside'],
     };
   },
   computed: {
