@@ -151,9 +151,11 @@ export default {
         commit('SET_TRANSACTIONS', [data]);
         commit('RESET_TRANSACTION');
         commit('RESET_ERRORS');
+        return data;
       } catch (err) {
         const error = err.response.data.details[0];
         dispatch('handleErrors', error);
+        return error;
       }
     },
     async editTransaction(_, transaction) {

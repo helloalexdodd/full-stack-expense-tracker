@@ -6,7 +6,7 @@
       <transaction-form-description />
       <transaction-form-amount />
       <transaction-form-notes />
-      <b-button native-type="submit" class="is-success has-text-weight-bold mt-3">
+      <b-button native-type="submit" :loading="loading" class="is-success has-text-weight-bold mt-3">
         Submit {{ transactionType.replace(/^\w/, (char) => char.toUpperCase()) }}
       </b-button>
     </form>
@@ -25,6 +25,9 @@ import {
 
 export default {
   name: 'TransactionForm',
+  data: () => ({
+    loading: false,
+  }),
   components: {
     TransactionFormAccount,
     TransactionFormAmount,
@@ -46,9 +49,11 @@ export default {
     ...mapActions({
       addTransaction: 'transactions/addTransaction',
     }),
-    addNewTransaction() {
-      const { addTransaction, transactionType } = this;
-      addTransaction({ type: transactionType, id: this.user._id });
+    async addNewTransaction() {
+      const { addTransaction, transactionType, user } = this;
+      this.loading = true;
+      await addTransaction({ type: transactionType, id: user._id });
+      this.loading = false;
     },
   },
 };

@@ -17,7 +17,9 @@
           />
         </b-field>
         <div class="buttons is-centered">
-          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold"> Log In </b-button>
+          <b-button native-type="submit" :loading="loading" class="is-success mt-5 mb-4 has-text-weight-bold">
+            Log In
+          </b-button>
         </div>
         <div class="level">
           <div class="level-left">
@@ -45,13 +47,16 @@ export default {
     usernameValidation: '',
     passwordValidation: '',
     passwordMessage: '',
+    loading: false,
   }),
   methods: {
     ...mapActions({
       signIn: 'auth/signIn',
     }),
     async handleSubmit() {
+      this.loading = true;
       const { data } = await this.signIn(this.user);
+      this.loading = false;
       if (data) {
         this.usernameValidation = 'is-danger';
         this.passwordValidation = 'is-danger';

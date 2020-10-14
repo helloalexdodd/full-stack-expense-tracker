@@ -20,7 +20,9 @@
           />
         </b-field>
         <div class="buttons is-centered">
-          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold">Sign Up</b-button>
+          <b-button native-type="submit" :loading="loading" class="is-success mt-5 mb-4 has-text-weight-bold"
+            >Sign Up</b-button
+          >
         </div>
         <div class="level">
           <div class="level-left">
@@ -46,6 +48,7 @@ export default {
       email: '',
       password: '',
     },
+    loading: false,
   }),
   computed: {
     ...mapGetters({
@@ -62,7 +65,9 @@ export default {
       registerUser: 'auth/registerUser',
     }),
     async handleSubmit() {
+      this.loading = true;
       const { message } = await this.registerUser(this.user);
+      this.loading = false;
       if (!message) this.$router.push('/');
     },
   },
