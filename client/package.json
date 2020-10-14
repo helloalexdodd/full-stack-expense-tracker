@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint",
     "deploy": "npm run build && netlify deploy --prod"
   },
+  "author": "Alex Dodd",
+  "license": "ISC",
   "dependencies": {
     "@mdi/font": "^5.5.55",
     "axios": "^0.20.0",

@@ -54,7 +54,7 @@ export default {
   name: 'Sidebar',
   data() {
     return {
-      open: true,
+      open: false,
       overlay: false,
       fullheight: true,
       fullwidth: false,
