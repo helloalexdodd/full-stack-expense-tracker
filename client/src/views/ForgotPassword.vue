@@ -14,12 +14,12 @@
             Search
           </b-button>
         </div>
-        <div class="level">
+        <div class="level is-mobile">
           <div class="level-left">
-            <router-link class="level-item" to="/signup"> Sign Up </router-link>
+            <router-link to="/signup"> Sign Up </router-link>
           </div>
           <div class="level-right">
-            <router-link class="level-item" to="/login"> Log In </router-link>
+            <router-link to="/login"> Log In </router-link>
           </div>
         </div>
       </form>

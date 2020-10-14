@@ -16,8 +16,8 @@ Vue.use(Buefy);
 Vue.prototype.$http = axios;
 const token = localStorage.getItem('x-auth-token');
 if (token) Vue.prototype.$http.defaults.headers.common['x-auth-token'] = token;
-Vue.prototype.$http.defaults.baseURL = 'http://localhost:5000/v1/';
-// Vue.prototype.$http.defaults.baseURL = 'https://full-stack-expense-tracker.com/v1/';
+// Vue.prototype.$http.defaults.baseURL = 'http://localhost:5000/v1/';
+Vue.prototype.$http.defaults.baseURL = 'https://full-stack-expense-tracker.com/v1/';
 
 new Vue({
   router,

@@ -24,7 +24,7 @@
             >Sign Up</b-button
           >
         </div>
-        <div class="level">
+        <div class="level is-mobile">
           <div class="level-left">
             <router-link to="/login">Log In</router-link>
           </div>
