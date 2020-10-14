@@ -79,12 +79,10 @@ export default {
     async registerUser({ commit, dispatch }, credentials) {
       try {
         commit('RESET_ERRORS');
-        const data = await axios.post('users/register', credentials);
-        console.log(data);
+        const { data } = await axios.post('users/register', credentials);
         const { token, user } = data;
         commit('SET_TOKEN', token);
         commit('SET_USER', user);
-        console.log(data);
         return data;
       } catch (err) {
         const error = err.response.data?.details[0];

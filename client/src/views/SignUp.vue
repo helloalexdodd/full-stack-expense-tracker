@@ -62,26 +62,8 @@ export default {
       registerUser: 'auth/registerUser',
     }),
     async handleSubmit() {
-      const { data } = await this.registerUser(this.user);
-
-      const error = data.message;
-      console.log(data);
-      if (error) {
-        if (error.includes('username')) {
-          this.usernameInvalid = 'is-danger';
-          this.usernameValidation = error;
-        }
-        if (error.includes('email')) {
-          this.emailInvalid = 'is-danger';
-          this.emailValidation = error;
-        }
-        if (error.includes('password')) {
-          this.passwordInvalid = 'is-danger';
-          this.passwordValidation = error;
-        }
-      } else {
-        this.$router.push('/');
-      }
+      await this.registerUser(this.user);
+      this.$router.push('/');
     },
   },
 };
