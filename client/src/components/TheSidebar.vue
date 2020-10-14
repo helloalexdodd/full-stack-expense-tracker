@@ -32,6 +32,13 @@
               data-domain="alexdodd.ca"
               data-subject="Hello! 🦖✨😃"
             />
+            <b-menu-item
+              icon="ladybug"
+              label="Report a bug"
+              href="https://github.com/helloalexdodd/full-stack-expense-tracker/issues/new"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
           </b-menu-list>
         </b-menu>
       </div>

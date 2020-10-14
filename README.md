@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9e42d4f-ab84-407f-9f0e-1760470822fd/deploy-status)](https://app.netlify.com/sites/full-stack-expense-tracker/deploys)
+
+# Vue the project [live](https://full-stack-expense-tracker.netlify.app/)!
+
 This project was created using [Vue.js](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/), and [Buefy](https://buefy.org/) on the front end and [Node](https://nodejs.org/en/), [Express](http://expressjs.com/), and [MongoDB](https://www.mongodb.com/) on the back.
 
 ## For the Front End
