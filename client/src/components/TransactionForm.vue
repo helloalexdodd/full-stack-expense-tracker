@@ -6,7 +6,7 @@
       <transaction-form-description />
       <transaction-form-amount />
       <transaction-form-notes />
-      <b-button :loading="loading" class="is-success has-text-weight-bold mt-3">
+      <b-button native-type="submit" :loading="loading" class="is-success has-text-weight-bold mt-3">
         Submit {{ transactionType.replace(/^\w/, (char) => char.toUpperCase()) }}
       </b-button>
     </form>

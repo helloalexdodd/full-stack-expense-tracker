@@ -10,7 +10,9 @@
           {{ message }}
         </b-tag>
         <div class="buttons is-centered">
-          <b-button :loading="loading" class="is-success mt-5 mb-4 has-text-weight-bold">Search</b-button>
+          <b-button native-type="submit" :loading="loading" class="is-success mt-5 mb-4 has-text-weight-bold"
+            >Search</b-button
+          >
         </div>
         <div class="level is-mobile">
           <div class="level-left">
