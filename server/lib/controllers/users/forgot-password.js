@@ -10,10 +10,7 @@ const emailPassword = config.get('emailPassword');
 const forgotPassword = async (req, res) => {
   const { email } = req.body;
   const user = await User.findOne({ email });
-  if (!user)
-    return res
-      .status(200)
-      .send({ message: 'Recovery email sent. Check your inbox.' });
+  if (!user) return res.status(200).send({ message: 'User not found.' });
 
   const token = crypto.randomBytes(20).toString('hex');
 
@@ -35,10 +32,10 @@ const forgotPassword = async (req, res) => {
     subject: 'Password Reset',
     text:
       'You or someone else has requested a password reset for your account. If it was you, please click the following link or paste it into your browser to reset your password\n\n' +
-      `${baseUrl}/resetpassword?token=${token}\n\n` +
+      `${baseUrl}resetpassword?token=${token}\n\n` +
       'If you did not request this, ignore this email and your password will remain the same.',
     html: `
-      <p>You or someone else has requested a password reset for your account. If it was you, please click <a href="${baseUrl}/resetpassword?token=${token}">this link</a> or paste it into your browser to reset your password.</p>
+      <p>You or someone else has requested a password reset for your account. If it was you, please click <a href="${baseUrl}resetpassword?token=${token}">this link</a> or paste it into your browser to reset your password.</p>
       <p>If you did not request this, ignore this email and your password will remain the same.</p>
       `,
     amp: `
@@ -55,7 +52,7 @@ const forgotPassword = async (req, res) => {
           </style>
         </head>
         <body>
-          <p>You or someone else has requested a password reset for your account. If it was you, please click <a href="${baseUrl}/resetpassword?token=${token}">this link</a> or paste it into your browser to reset your password.</p>
+          <p>You or someone else has requested a password reset for your account. If it was you, please click <a href="${baseUrl}resetpassword?token=${token}">this link</a> or paste it into your browser to reset your password.</p>
           <p>If you did not request this, ignore this email and your password will remain the same.</p>
         </body>
       </html>

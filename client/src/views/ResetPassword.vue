@@ -27,7 +27,14 @@
           {{ message }}
         </b-tag>
         <div class="buttons is-centered">
-          <b-button native-type="submit" class="is-success mt-5 mb-4 has-text-weight-bold"> Change Password </b-button>
+          <b-button
+            tag="input"
+            native-type="submit"
+            value="Submit input"
+            class="is-success mt-5 mb-4 has-text-weight-bold"
+          >
+            Change Password
+          </b-button>
         </div>
       </form>
       <div v-if="approved === 'expired'" class="py-6">

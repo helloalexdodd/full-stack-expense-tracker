@@ -7,7 +7,7 @@
           <b-input v-model="user.username" id="username" name="username" placeholder="Username" />
         </b-field>
         <b-field label="Email" for="email" :message="emailValidation" :type="emailInvalid">
-          <b-input v-model="user.email" id="email" native-type="email" name="email" placeholder="Email" />
+          <b-input v-model="user.email" id="email" type="email" name="email" placeholder="Email" />
         </b-field>
         <b-field label="Password" for="password" :message="passwordValidation" :type="passwordInvalid">
           <b-input
@@ -20,7 +20,12 @@
           />
         </b-field>
         <div class="buttons is-centered">
-          <b-button native-type="submit" :loading="loading" class="is-success mt-5 mb-4 has-text-weight-bold"
+          <b-button
+            tag="input"
+            native-type="submit"
+            value="Submit input"
+            :loading="loading"
+            class="is-success mt-5 mb-4 has-text-weight-bold"
             >Sign Up</b-button
           >
         </div>

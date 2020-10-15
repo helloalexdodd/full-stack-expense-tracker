@@ -40,7 +40,7 @@
       </b-field>
     </div>
     <div v-if="showButtons" class="buttons is-centered mt-4">
-      <b-button native-type="button" type="is-success is-light" icon-left="plus-circle" @click="addNewAccount()">
+      <b-button type="is-success is-light" icon-left="plus-circle" @click="addNewAccount()">
         Add New Account
       </b-button>
     </div>

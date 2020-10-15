@@ -9,7 +9,7 @@
       :class="transaction.type"
       class="box"
     >
-      <div class="columns">
+      <div class="columns is-mobile">
         <div class="column">
           <h3 class="has-text-weight-bold">
             {{ transaction.description }}
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div v-if="transaction.showDetails" class="column is-full" @click.stop>
-        <div class="columns">
+        <div class="columns is-mobile">
           <h4 class="column has-text-weight-medium">
             {{ transaction.account.name }}
           </h4>
@@ -31,7 +31,7 @@
             {{ formatDate(transaction) }}
           </h4>
         </div>
-        <div v-if="!transaction.editNote" @click="openEdit(transaction)" class="level">
+        <div v-if="!transaction.editNote" @click="openEdit(transaction)" class="level is-mobile">
           <p class="level-left">{{ transaction.notes }}</p>
           <b-icon class="level-right" icon="pencil-outline" size="is-small"> </b-icon>
         </div>
@@ -39,16 +39,11 @@
           <b-field for="notes">
             <b-input id="notes" v-model="transaction.notes" type="textarea" name="notes" />
           </b-field>
-          <div class="level">
-            <div class="level-left"></div>
+          <div class="level is-mobile">
+            <div class="level-right" />
             <div class="buttons level-right">
-              <b-button
-                class="level-item"
-                type="is-success"
-                icon-right="check"
-                @click="updateTransaction(transaction)"
-              />
-              <b-button class="level-item" type="is-danger" icon-right="delete" @click="abandonEdit(transaction)" />
+              <b-button type="is-success" icon-right="check" @click="updateTransaction(transaction)" />
+              <b-button type="is-danger" icon-right="delete" @click="abandonEdit(transaction)" />
             </div>
           </div>
         </div>

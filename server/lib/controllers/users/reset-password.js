@@ -5,7 +5,7 @@ const resetPassword = async (req, res) => {
   const { token } = req.query;
   const { password } = req.body;
   const user = await User.findOne({ resetPasswordToken: token });
-
+  console.log({ token, user });
   if (password) {
     const salt = await bcrypt.genSalt(12);
     user.password = await bcrypt.hash(password, salt);
