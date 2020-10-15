@@ -1,7 +1,7 @@
 <template>
   <div>
     <form action="POST" class="my-5" @submit.prevent="addNewTransaction()">
-      <legend class="mb-3 py-2">Add new {{ transactionType }}</legend>
+      <legend :class="`mb-3 py-2 ${transactionType}`">Add new {{ transactionType }}</legend>
       <transaction-form-account />
       <transaction-form-description />
       <transaction-form-amount />
@@ -58,3 +58,12 @@ export default {
   },
 };
 </script>
+<style scoped>
+legend.income {
+  border-bottom: 2px solid #3ec46d;
+}
+
+legend.expense {
+  border-bottom: 2px solid #f03a5f;
+}
+</style>

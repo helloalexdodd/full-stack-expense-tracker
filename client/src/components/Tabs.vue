@@ -22,3 +22,8 @@ export default {
   }),
 };
 </script>
+<style scoped>
+.tabs .is-active:hover {
+  border-bottom: 2px solid #3ec46d;
+}
+</style>
