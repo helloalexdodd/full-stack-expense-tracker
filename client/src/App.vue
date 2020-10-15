@@ -1,6 +1,7 @@
 <template>
   <div class="body">
     <the-sidebar />
+    <h1 class="title has-text-centered is-size-1"><img src="../public/favicon-32x32.png" /> Expense Tracker</h1>
     <router-view />
     <Footer />
   </div>
@@ -25,5 +26,8 @@ export default {
   flex-direction: column;
   align-items: stretch;
   min-height: 100vh;
+}
+img {
+  margin-right: 10px;
 }
 </style>

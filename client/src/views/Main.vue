@@ -1,7 +1,6 @@
 <template>
   <div class="mb-6">
     <div class="column is-half is-offset-one-quarter">
-      <h1 class="title has-text-centered is-size-1">Expense Tracker</h1>
       <totals title="Balance" :amount="calculateTotal('balance')" class="column is-half is-offset-one-quarter" />
       <div class="columns">
         <div class="column">

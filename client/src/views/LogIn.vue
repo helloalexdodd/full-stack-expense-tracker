@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="title has-text-centered is-size-1">Log In</h1>
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
+      <h2 class="title has-text-centered is-size-3 my-5">Log In</h2>
       <form action="GET" class="my-5" @submit.prevent="handleSubmit">
         <b-field label="Username" for="username" :type="usernameValidation">
           <b-input v-model="user.username" id="username" name="username" placeholder="Username" />
