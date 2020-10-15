@@ -4,20 +4,21 @@ const { Transaction } = require('models/transaction');
 
 const removeAccount = async (req, res) => {
   const { id } = req.params;
+  const { _id } = req.user;
 
-  const transactions = await Transaction.findOne({ account: id });
+  await Transaction.deleteMany({ account: id });
 
-  if (transactions)
-    return res.status(409).send({
-      message:
-        'You have transactions associated with this account. It cannot be deleted.',
-    });
+  const user = await User.findOne({ _id }).populate('transactions');
+  user.transactions = user.transactions.filter(
+    (transaction) => transaction.account.toString() !== id
+  );
 
-  const user = await User.findOne({ accounts: id });
-  user.transactions = user.transactions.filter((t) => t !== id);
+  user.accounts = user.accounts.filter((account) => account.toString() !== id);
+
   await user.save();
 
   const account = await Account.findByIdAndRemove({ _id: id });
+
   res.send(account);
 };
 
