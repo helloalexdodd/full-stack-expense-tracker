@@ -57,6 +57,7 @@
 import { mapActions, mapGetters } from 'vuex';
 
 export default {
+  name: 'TransactionHistory',
   data: () => ({
     oldNote: '',
   }),

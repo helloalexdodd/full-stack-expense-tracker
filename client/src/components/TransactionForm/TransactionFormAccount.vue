@@ -34,7 +34,7 @@
           placeholder="i.e. Personal Savings"
           expanded
         />
-        <button type="button" class="button ml-3" @click="setEventHandler(account)">
+        <button type="button" class="button ml-3" @click="setEventHandler">
           <b-icon :icon="icon" />
         </button>
       </b-field>
@@ -44,6 +44,21 @@
         Add New Account
       </b-button>
     </div>
+    <b-modal v-model="isModalActive" has-modal-card trap-focus aria-role="dialog" aria-modal>
+      <div class="modal-card" style="width: auto">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Are you sure?</p>
+          <button type="button" class="delete" @click="closeModal" />
+        </header>
+        <section class="modal-card-body">
+          <p class="subtitle is-6">Do you want to permanently delete this account?</p>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button" type="button" @click="closeModal">Cancel</button>
+          <button class="button is-danger" type="button" @click="removeSelectedAccount(account)">Remove Account</button>
+        </footer>
+      </div>
+    </b-modal>
   </div>
 </template>
 
@@ -57,6 +72,7 @@ export default {
     showAddAccount: false,
     selected: '',
     newAccount: '',
+    isModalActive: false,
   }),
   computed: {
     account: {
@@ -122,10 +138,20 @@ export default {
     updateAccount(e) {
       this.$store.commit('transactions/SET_TRANSACTION_ACCOUNT', e);
     },
-    setEventHandler(account) {
-      if (this.account?.name && !this.showButtons) return this.removeAccount(account);
+    setEventHandler() {
+      if (this.account?.name && !this.showButtons) {
+        this.isModalActive = true;
+        return false;
+      }
       if (this.showButtons) return this.toggleAddAccount();
       return this.toggleAddAccount();
+    },
+    closeModal() {
+      this.isModalActive = false;
+    },
+    removeSelectedAccount(account) {
+      this.removeAccount(account);
+      this.closeModal();
     },
   },
 };
