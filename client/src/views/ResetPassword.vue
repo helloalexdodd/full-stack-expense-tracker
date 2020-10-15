@@ -27,12 +27,7 @@
           {{ message }}
         </b-tag>
         <div class="buttons is-centered">
-          <b-button
-            tag="input"
-            native-type="submit"
-            value="Submit input"
-            class="is-success mt-5 mb-4 has-text-weight-bold"
-          >
+          <b-button :loading="loading" class="is-success mt-5 mb-4 has-text-weight-bold">
             Change Password
           </b-button>
         </div>
@@ -64,9 +59,12 @@ export default {
     passwordValidation: '',
     message: '',
     approved: null,
+    loading: false,
   }),
   async mounted() {
+    this.loading = true;
     const { data } = await this.$store.dispatch('auth/approveResetPassword', this.$route.query.token);
+    this.loading = false;
     this.approved = data.message;
   },
   methods: {
