@@ -1,6 +1,6 @@
 <template>
   <div class="box has-text-centered">
-    <h3 class="has-text-weight-bold">
+    <h3 class="has-text-weight-bold is-family-monospace">
       {{ title }}
     </h3>
     <p class="has-text-weight-semibold is-size-4" :class="textColor()">

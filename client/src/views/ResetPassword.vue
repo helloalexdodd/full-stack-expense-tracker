@@ -1,7 +1,8 @@
 <template>
   <div>
+    <h2 class="title has-text-centered is-size-5">A simple daily income and expense tracker</h2>
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
-      <h2 class="title has-text-centered is-size-3 my-5">Reset Password</h2>
+      <h3 class="title has-text-centered is-size-3 my-5">Reset Password</h3>
       <form v-if="approved === 'approved'" action="POST" class="my-5" @submit.prevent="handleSubmit">
         <b-field label="New Password" for="password" :type="passwordInvalid">
           <b-input
@@ -52,6 +53,7 @@ import { mapActions } from 'vuex';
 
 export default {
   name: 'SignUp',
+  title: 'Boomerang Tracker | Password Reset',
   data: () => ({
     newPassword: '',
     confirmPassword: '',

@@ -47,15 +47,21 @@
     <b-modal v-model="isModalActive" has-modal-card trap-focus aria-role="dialog" aria-modal>
       <div class="modal-card" style="width: auto">
         <header class="modal-card-head">
-          <p class="modal-card-title">Are you sure?</p>
+          <p class="modal-card-title is-size-6 has-text-centered has-text-weight-bold">
+            Are you sure you want to permanently delete this account?
+          </p>
           <button type="button" class="delete" @click="closeModal" />
         </header>
-        <section class="modal-card-body">
-          <p class="subtitle is-6">Do you want to permanently delete this account?</p>
+        <section class="modal-card-body has-text-centered py-6 px-6">
+          <p class="subtitle is-5 has-text-danger has-text-weight-bold">
+            All transactions associated with this account will also be removed.
+          </p>
         </section>
         <footer class="modal-card-foot">
           <button class="button" type="button" @click="closeModal">Cancel</button>
-          <button class="button is-danger" type="button" @click="removeSelectedAccount(account)">Remove Account</button>
+          <button class="button is-danger" type="button" @click="removeSelectedAccount">
+            Remove Account
+          </button>
         </footer>
       </div>
     </b-modal>
@@ -119,7 +125,7 @@ export default {
         });
       } else {
         await this.addAccount(this.newAccount);
-        this.newAccount = '';
+        // this.newAccount = '';
         this.showAddAccount = false;
         this.showButtons = false;
       }
@@ -149,8 +155,8 @@ export default {
     closeModal() {
       this.isModalActive = false;
     },
-    removeSelectedAccount(account) {
-      this.removeAccount(account);
+    removeSelectedAccount() {
+      this.removeAccount(this.account);
       this.closeModal();
     },
   },

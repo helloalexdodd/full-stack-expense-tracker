@@ -80,7 +80,6 @@ export default {
     },
     RESET_TRANSACTION(state) {
       state.transaction = {
-        account: '',
         description: '',
         amount: '',
         notes: '',
@@ -88,6 +87,10 @@ export default {
     },
     REMOVE_TRANSACTION(state, index) {
       state.transactions.splice(index, 1);
+    },
+    REMOVE_TRANSACTIONS(state, accountId) {
+      const newTransactions = state.transactions.filter((transaction) => transaction.account._id !== accountId);
+      state.transactions = newTransactions;
     },
     SET_TRANSACTION_ACCOUNT(state, account) {
       state.transaction.account = account;
@@ -103,7 +106,7 @@ export default {
     },
     SET_ACCOUNTS(state, account) {
       if (account.length) {
-        const accounts = [...state.accounts, ...account];
+        const accounts = [...account, ...state.accounts];
         const uniqueAccounts = getUniqueArray(accounts);
         state.accounts = uniqueAccounts;
       } else {
@@ -196,7 +199,8 @@ export default {
     async addAccount({ commit }, newAccount) {
       try {
         const { data } = await axios.post('accounts', { name: newAccount });
-        commit('SET_ACCOUNTS', [{ name: data.name, id: data._id }]);
+        const { name, _id } = data;
+        commit('SET_ACCOUNTS', [{ name, _id }]);
         return data;
       } catch (err) {
         return err.response;
@@ -207,8 +211,8 @@ export default {
         const { data } = await axios.delete(`accounts/${account._id}`);
         const index = state.accounts.map((a) => a.id || a._id).indexOf(data._id);
         if (index >= 0) {
-          state.transaction.account = null;
           commit('REMOVE_ACCOUNT', index);
+          commit('REMOVE_TRANSACTIONS', data._id);
         }
         return data;
       } catch (err) {

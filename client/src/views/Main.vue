@@ -24,6 +24,7 @@ import TransactionHistory from '@/components/TransactionHistory.vue';
 
 export default {
   name: 'App',
+  title: 'Boomerang Tracker',
   components: {
     Totals,
     Tabs,
