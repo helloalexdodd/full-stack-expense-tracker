@@ -25,21 +25,15 @@
               </template>
             </li>
             <p class="mb-4">Having an issue or have a suggestion?</p>
-
-            <!-- <div class="columns is-mobile is-vertically-centered"> -->
-
-            <a
+            <!-- <b-menu-item
               icon="email"
               label="Get In Touch"
               href="#mailgo"
               data-address="hello"
               data-domain="alexdodd.ca"
               data-subject="Hello! 🦖✨😃"
-            >
-              <b-icon icon="email" size="is-small" />
-              Get In Touch</a
-            >
-            <!-- </div> -->
+            /> -->
+            <b-menu-item icon="email" label="Get In Touch" href="mailto:hello@alexdodd.ca" />
             <b-menu-item
               icon="ladybug"
               label="Report a bug"
