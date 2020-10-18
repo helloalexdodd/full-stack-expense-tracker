@@ -6,18 +6,18 @@ const removeAccount = async (req, res) => {
   const { id } = req.params;
   const { _id } = req.user;
 
-  await Transaction.deleteMany({ account: id });
+  const user = await User.findById({ _id }).populate('transactions', 'account');
 
-  const user = await User.findOne({ _id }).populate('transactions');
-  user.transactions = user.transactions.filter(
-    (transaction) => transaction.account.toString() !== id
-  );
+  user.transactions = await user.transactions.filter((transaction) => {
+    return transaction.account.toString() !== id;
+  });
 
   user.accounts = user.accounts.filter((account) => account.toString() !== id);
 
-  await user.save();
-
+  await Transaction.deleteMany({ account: id });
   const account = await Account.findByIdAndRemove({ _id: id });
+
+  await user.save();
 
   res.send(account);
 };

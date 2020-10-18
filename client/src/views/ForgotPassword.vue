@@ -1,7 +1,8 @@
 <template>
   <div>
+    <h2 class="title has-text-centered is-size-5">A simple daily income and expense tracker</h2>
     <div class="box column is-half is-offset-one-quarter mt-6 px-6">
-      <h2 class="title has-text-centered is-size-3 my-5">Forgot Password</h2>
+      <h3 class="title has-text-centered is-size-3 my-5">Forgot Password</h3>
       <form action="GET" class="my-5" @submit.prevent="handleSubmit">
         <b-field label="Email" for="Email">
           <b-input id="email" v-model="email" name="email" placeholder="Email" />
@@ -31,6 +32,8 @@
 import { mapActions } from 'vuex';
 
 export default {
+  name: 'ForgotPassword',
+  title: 'Boomerang Tracker | Password Reset',
   data: () => ({
     email: '',
     message: '',

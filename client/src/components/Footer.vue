@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <strong>Expense Tracker</strong> by
+        <span class="has-text-weight-bold">Boomerang Tracker</span> by
         <a href="https://github.com/helloalexdodd" target="_blank" rel="noopener noreferrer">Alex Dodd</a>. The source
         code is licensed
         <a href="https://opensource.org/licenses/ISC" target="_blank" rel="noopener noreferrer">ISC</a>.

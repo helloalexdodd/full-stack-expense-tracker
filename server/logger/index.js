@@ -7,7 +7,7 @@ const db = config.get('db');
 
 logger.add(
   new logger.transports.File({
-    level: 'info',
+    level: 'error',
     filename: 'logger/logfile.log',
     handleExceptions: true,
     maxsize: 5242880, // 5MB
