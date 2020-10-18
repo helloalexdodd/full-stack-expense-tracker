@@ -28,7 +28,8 @@
             <b-menu-item
               icon="email"
               label="Get In Touch"
-              href="#mailgo"
+              href=""
+              class="mailgo"
               data-address="hello"
               data-domain="alexdodd.ca"
               data-subject="Hello! 🦖✨😃"
