@@ -25,15 +25,14 @@
               </template>
             </li>
             <p class="mb-4">Having an issue or have a suggestion?</p>
-            <!-- <b-menu-item
+            <b-menu-item
               icon="email"
               label="Get In Touch"
               href="#mailgo"
               data-address="hello"
               data-domain="alexdodd.ca"
               data-subject="Hello! 🦖✨😃"
-            /> -->
-            <b-menu-item icon="email" label="Get In Touch" href="mailto:hello@alexdodd.ca" />
+            />
             <b-menu-item
               icon="ladybug"
               label="Report a bug"
