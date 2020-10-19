@@ -6,7 +6,7 @@ import store from '@/store';
 import '@/store/subscriber';
 import 'buefy/dist/buefy.css';
 import '@mdi/font/css/materialdesignicons.css';
-import 'mailgo/dist/mailgo.min';
+import mailgo from 'mailgo';
 import titleMixin from '@/mixins/titleMixin';
 import App from './App.vue';
 
@@ -14,6 +14,8 @@ Vue.config.productionTip = false;
 
 Vue.mixin(titleMixin);
 Vue.use(Buefy);
+
+mailgo();
 
 Vue.prototype.$http = axios;
 const token = localStorage.getItem('x-auth-token');
